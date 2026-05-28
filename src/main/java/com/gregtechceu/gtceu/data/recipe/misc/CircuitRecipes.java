@@ -805,15 +805,15 @@ public class CircuitRecipes {
                 'B', PHENOLIC_BOARD.asStack());
 
         CHEMICAL_RECIPES.recipeBuilder("good_circuit_board_persulfate").EUt(VA[LV]).duration(300)
-                .inputItems(foil, Silver, 4)
                 .inputItems(PHENOLIC_BOARD)
+                .inputItems(foil, Silver, 4)
                 .inputFluids(SodiumPersulfate.getFluid(200))
                 .outputItems(GOOD_CIRCUIT_BOARD)
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("good_circuit_board_iron3").EUt(VA[LV]).duration(300)
-                .inputItems(foil, Silver, 4)
                 .inputItems(PHENOLIC_BOARD)
+                .inputItems(foil, Silver, 4)
                 .inputFluids(Iron3Chloride.getFluid(100))
                 .outputItems(GOOD_CIRCUIT_BOARD)
                 .save(provider);
