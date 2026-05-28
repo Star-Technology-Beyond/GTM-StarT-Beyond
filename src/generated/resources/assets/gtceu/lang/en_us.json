@@ -3860,6 +3860,7 @@
   "gtceu.recipe.category.ore_bathing": "Ore Treating",
   "gtceu.recipe.category.ore_crushing": "Ore Grinding",
   "gtceu.recipe.category.ore_forging": "Ore Crushing",
+  "gtceu.recipe.category.lcr_skip": "LCR Skips",
   "gtceu.recipe.chance": "Chance: %s +%s/tier",
   "gtceu.recipe.cleanroom": "Requires %s",
   "gtceu.recipe.cleanroom.display_name": "Cleanroom",

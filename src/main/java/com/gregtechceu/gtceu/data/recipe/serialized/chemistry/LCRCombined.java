@@ -1,5 +1,6 @@
 package com.gregtechceu.gtceu.data.recipe.serialized.chemistry;
 
+import com.gregtechceu.gtceu.common.data.GTRecipeCategories;
 import net.minecraft.data.recipes.FinishedRecipe;
 
 import java.util.function.Consumer;
@@ -19,9 +20,8 @@ public class LCRCombined {
                 .inputFluids(Oxygen.getFluid(3000))
                 .outputFluids(Ammonia.getFluid(4000))
                 .outputFluids(CarbonMonoxide.getFluid(3000))
-                .EUt(VA[HV])
-                .duration(320)
-                .save(provider);
+                .category(GTRecipeCategories.LCR_SKIP)
+                .EUt(VA[HV]).duration(320).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("methane_shortcut")
                 .circuitMeta(24)
@@ -29,9 +29,8 @@ public class LCRCombined {
                 .inputFluids(CarbonMonoxide.getFluid(1000))
                 .outputFluids(Methane.getFluid(1000))
                 .outputFluids(Water.getFluid(1000))
-                .EUt(VA[LV])
-                .duration(160)
-                .save(provider);
+                .category(GTRecipeCategories.LCR_SKIP)
+                .EUt(VA[LV]).duration(160).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("phenol_acetone_shortcut")
                 .circuitMeta(24)
@@ -41,6 +40,7 @@ public class LCRCombined {
                 .inputFluids(PhosphoricAcid.getFluid(100))
                 .outputFluids(Phenol.getFluid(1000))
                 .outputFluids(Acetone.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(480).EUt(VA[LV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("phenol_hcl_shortcut")
@@ -51,6 +51,7 @@ public class LCRCombined {
                 .outputFluids(Phenol.getFluid(1000))
                 .outputFluids(HydrochloricAcid.getFluid(1000))
                 .outputFluids(DilutedHydrochloricAcid.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(560).EUt(VA[LV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("phenol_salt_shortcut")
@@ -61,6 +62,7 @@ public class LCRCombined {
                 .outputItems(dust, Salt, 4)
                 .outputFluids(Phenol.getFluid(2000))
                 .outputFluids(HydrochloricAcid.getFluid(2000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(1120).EUt(VA[LV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("diesel_shortcut")
@@ -68,6 +70,7 @@ public class LCRCombined {
                 .inputFluids(LightFuel.getFluid(20000))
                 .inputFluids(HeavyFuel.getFluid(4000))
                 .outputFluids(Diesel.getFluid(24000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(100).EUt(VA[HV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("cetane_diesel_from_diesel_shortcut")
@@ -75,6 +78,7 @@ public class LCRCombined {
                 .inputFluids(Diesel.getFluid(10000))
                 .inputFluids(Tetranitromethane.getFluid(200))
                 .outputFluids(CetaneBoostedDiesel.getFluid(10000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(120).EUt(VA[HV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("cetane_diesel_from_bio_diesel_shortcut")
@@ -82,6 +86,7 @@ public class LCRCombined {
                 .inputFluids(BioDiesel.getFluid(10000))
                 .inputFluids(Tetranitromethane.getFluid(400))
                 .outputFluids(CetaneBoostedDiesel.getFluid(7500))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(120).EUt(VA[HV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("acetone_shortcut")
@@ -90,6 +95,7 @@ public class LCRCombined {
                 .circuitMeta(24)
                 .outputFluids(Acetone.getFluid(2000))
                 .outputFluids(Oxygen.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(400).EUt(VA[HV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("dinitrogen_tetroxide_shortcut")

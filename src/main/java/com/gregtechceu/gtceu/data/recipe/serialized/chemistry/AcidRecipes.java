@@ -1,5 +1,6 @@
 package com.gregtechceu.gtceu.data.recipe.serialized.chemistry;
 
+import com.gregtechceu.gtceu.common.data.GTRecipeCategories;
 import net.minecraft.data.recipes.FinishedRecipe;
 
 import java.util.function.Consumer;
@@ -58,6 +59,7 @@ public class AcidRecipes {
                 .inputItems(dust, Sulfur)
                 .inputFluids(Water.getFluid(4000))
                 .outputFluids(SulfuricAcid.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .EUt(VA[HV])
                 .duration(320)
                 .save(provider);
@@ -115,6 +117,7 @@ public class AcidRecipes {
                 .inputFluids(Ammonia.getFluid(1000))
                 .outputFluids(NitricAcid.getFluid(1000))
                 .outputFluids(Water.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(320).EUt(VA[LV]).save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("nitric_acid_from_elements")
@@ -124,6 +127,7 @@ public class AcidRecipes {
                 .inputFluids(Oxygen.getFluid(4000))
                 .outputFluids(NitricAcid.getFluid(1000))
                 .outputFluids(Water.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(320).EUt(VA[HV]).save(provider);
     }
 
@@ -156,6 +160,7 @@ public class AcidRecipes {
                 .inputFluids(Water.getFluid(3000))
                 .inputFluids(Oxygen.getFluid(5000))
                 .outputFluids(PhosphoricAcid.getFluid(2000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(320).EUt(VA[LV]).save(provider);
     }
 }
