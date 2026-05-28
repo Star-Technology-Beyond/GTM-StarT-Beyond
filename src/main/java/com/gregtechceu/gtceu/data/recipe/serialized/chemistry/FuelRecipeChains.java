@@ -1,5 +1,7 @@
 package com.gregtechceu.gtceu.data.recipe.serialized.chemistry;
 
+import com.gregtechceu.gtceu.common.data.GTRecipeCategories;
+
 import net.minecraft.data.recipes.FinishedRecipe;
 
 import java.util.function.Consumer;
@@ -20,6 +22,7 @@ public class FuelRecipeChains {
                 .inputFluids(Acetone.getFluid(1000))
                 .circuitMeta(24)
                 .outputFluids(RawGasoline.getFluid(20000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("gasoline").EUt(VA[HV]).duration(10)
@@ -51,6 +54,7 @@ public class FuelRecipeChains {
                 .inputFluids(EthylTertButylEther.getFluid(1000))
                 .circuitMeta(24)
                 .outputFluids(HighOctaneGasoline.getFluid(32000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .save(provider);
 
         // Nitrobenzene

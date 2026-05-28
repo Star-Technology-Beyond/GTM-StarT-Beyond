@@ -1,5 +1,7 @@
 package com.gregtechceu.gtceu.data.recipe.serialized.chemistry;
 
+import com.gregtechceu.gtceu.common.data.GTRecipeCategories;
+
 import net.minecraft.data.recipes.FinishedRecipe;
 
 import java.util.function.Consumer;
@@ -146,6 +148,7 @@ public class PolymerRecipes {
                 .inputFluids(Chlorine.getFluid(12000))
                 .outputFluids(Tetrafluoroethylene.getFluid(1000))
                 .outputFluids(HydrochloricAcid.getFluid(12000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(540).EUt(VA[IV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("ptfe_from_air")
@@ -287,6 +290,7 @@ public class PolymerRecipes {
                 .outputFluids(Epichlorohydrin.getFluid(1000))
                 .outputFluids(HydrochloricAcid.getFluid(1000))
                 .outputFluids(SaltWater.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(640).EUt(VA[LV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("phenol_from_cumene")
@@ -323,6 +327,7 @@ public class PolymerRecipes {
                 .outputFluids(Epoxy.getFluid(1000))
                 .outputFluids(SaltWater.getFluid(1000))
                 .outputFluids(DilutedHydrochloricAcid.getFluid(1000))
+                .category(GTRecipeCategories.LCR_SKIP)
                 .duration(480).EUt(VA[LV]).save(provider);
     }
 

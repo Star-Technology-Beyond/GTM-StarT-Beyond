@@ -19,6 +19,7 @@ public class GTRecipeCategories {
     public static final GTRecipeCategory ORE_BATHING = register("ore_bathing", GTRecipeTypes.CHEMICAL_BATH_RECIPES);
     public static final GTRecipeCategory CHEM_DYES = register("chem_dyes", GTRecipeTypes.CHEMICAL_BATH_RECIPES);
     public static final GTRecipeCategory INGOT_MOLDING = register("ingot_molding", GTRecipeTypes.ALLOY_SMELTER_RECIPES);
+    public static final GTRecipeCategory LCR_SKIP = register("lcr_skip", GTRecipeTypes.LARGE_CHEMICAL_RECIPES);
 
     public static final GTRecipeCategory ARC_FURNACE_RECYCLING = register("arc_furnace_recycling",
             GTRecipeTypes.ARC_FURNACE_RECIPES)
