@@ -33,6 +33,7 @@ public class ItemLang {
         provider.add("gtceu.recipe.category.ore_bathing", "Ore Treating");
         provider.add("gtceu.recipe.category.chem_dyes", "Chemical Dyeing");
         provider.add("gtceu.recipe.category.ingot_molding", "Metal Molding");
+        provider.add("gtceu.recipe.category.lcr_skip", "LCR Skips");
 
         // TagPrefix
         for (TagPrefix tagPrefix : TagPrefix.values()) {
