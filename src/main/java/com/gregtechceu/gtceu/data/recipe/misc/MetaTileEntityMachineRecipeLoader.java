@@ -538,7 +538,7 @@ public class MetaTileEntityMachineRecipeLoader {
 
         ASSEMBLER_RECIPES.recipeBuilder("iv_large_miner")
                 .inputItems(HULL[IV])
-                .inputItems(frameGt, TungstenSteel, 4)
+                .inputItems(frameGt, FerrotungstenAlloy, 4)
                 .inputItems(CustomTags.IV_CIRCUITS, 4)
                 .inputItems(ELECTRIC_MOTOR_IV, 4)
                 .inputItems(ELECTRIC_PUMP_IV, 4)
@@ -588,7 +588,7 @@ public class MetaTileEntityMachineRecipeLoader {
 
         ASSEMBLER_RECIPES.recipeBuilder("ev_fluid_drilling_rig")
                 .inputItems(HULL[LuV])
-                .inputItems(frameGt, TungstenSteel, 4)
+                .inputItems(frameGt, FerrotungstenAlloy, 4)
                 .inputItems(CustomTags.LuV_CIRCUITS, 4)
                 .inputItems(ELECTRIC_MOTOR_LuV, 4)
                 .inputItems(ELECTRIC_PUMP_LuV, 4)

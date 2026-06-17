@@ -32,11 +32,11 @@ public class FuelRecipeChains {
                 .save(provider);
 
         // Nitrous Oxide
-        CHEMICAL_RECIPES.recipeBuilder("nitrous_oxide").EUt(VA[LV]).duration(100)
+        CHEMICAL_RECIPES.recipeBuilder("dinitrogen_monoxide").EUt(VA[LV]).duration(100)
                 .inputFluids(Nitrogen.getFluid(2000))
                 .inputFluids(Oxygen.getFluid(1000))
                 .circuitMeta(4)
-                .outputFluids(NitrousOxide.getFluid(1000))
+                .outputFluids(DinitrogenMonoxide.getFluid(1000))
                 .save(provider);
 
         // Ethyl Tert-Butyl Ether
@@ -49,7 +49,7 @@ public class FuelRecipeChains {
         LARGE_CHEMICAL_RECIPES.recipeBuilder("high_octane_gasoline").EUt(VA[EV]).duration(50)
                 .inputFluids(Gasoline.getFluid(20000))
                 .inputFluids(Octane.getFluid(2000))
-                .inputFluids(NitrousOxide.getFluid(2000))
+                .inputFluids(DinitrogenMonoxide.getFluid(2000))
                 .inputFluids(Toluene.getFluid(1000))
                 .inputFluids(EthylTertButylEther.getFluid(1000))
                 .circuitMeta(24)

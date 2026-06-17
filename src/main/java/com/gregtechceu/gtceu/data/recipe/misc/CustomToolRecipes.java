@@ -66,7 +66,7 @@ public final class CustomToolRecipes {
         baseMaterials.put(GTValues.MV, GTMaterials.Aluminium);
         baseMaterials.put(GTValues.HV, GTMaterials.StainlessSteel);
         baseMaterials.put(GTValues.EV, GTMaterials.Titanium);
-        baseMaterials.put(GTValues.IV, GTMaterials.TungstenSteel);
+        baseMaterials.put(GTValues.IV, GTMaterials.FerrotungstenAlloy);
 
         batteryItems.put(GTValues.ULV, List.of(GTItems.BATTERY_ULV_TANTALUM));
         batteryItems.put(GTValues.LV,

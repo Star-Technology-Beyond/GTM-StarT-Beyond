@@ -74,18 +74,18 @@ public class AcidRecipes {
                 .outputFluids(Ammonia.getFluid(1000))
                 .duration(320).EUt(384).save(provider);
 
-        CHEMICAL_RECIPES.recipeBuilder("nitric_oxide_from_ammonia")
+        CHEMICAL_RECIPES.recipeBuilder("nitrogen_monoxide_from_ammonia")
                 .circuitMeta(1)
                 .inputFluids(Oxygen.getFluid(5000))
                 .inputFluids(Ammonia.getFluid(2000))
-                .outputFluids(NitricOxide.getFluid(2000))
+                .outputFluids(NitrogenMonoxide.getFluid(2000))
                 .outputFluids(Water.getFluid(3000))
                 .duration(160).EUt(VA[LV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("nitrogen_dioxide_from_oxide")
                 .circuitMeta(1)
                 .inputFluids(Oxygen.getFluid(1000))
-                .inputFluids(NitricOxide.getFluid(1000))
+                .inputFluids(NitrogenMonoxide.getFluid(1000))
                 .outputFluids(NitrogenDioxide.getFluid(1000))
                 .duration(160).EUt(VA[LV]).save(provider);
 
@@ -101,7 +101,7 @@ public class AcidRecipes {
                 .inputFluids(NitrogenDioxide.getFluid(3000))
                 .inputFluids(Water.getFluid(1000))
                 .outputFluids(NitricAcid.getFluid(2000))
-                .outputFluids(NitricOxide.getFluid(1000))
+                .outputFluids(NitrogenMonoxide.getFluid(1000))
                 .duration(240).EUt(VA[LV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("nitric_acid_from_dioxide_2")
@@ -133,15 +133,15 @@ public class AcidRecipes {
     }
 
     private static void phosphoricAcidRecipes(Consumer<FinishedRecipe> provider) {
-        CHEMICAL_RECIPES.recipeBuilder("phosphorus_pentoxide_from_elements")
+        CHEMICAL_RECIPES.recipeBuilder("phosphorus_v_oxide_from_elements")
                 .circuitMeta(1)
                 .inputItems(dust, Phosphorus, 4)
                 .inputFluids(Oxygen.getFluid(10000))
-                .outputItems(dust, PhosphorusPentoxide, 14)
+                .outputItems(dust, PhosphorusVOxide, 14)
                 .duration(40).EUt(VA[LV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("phosphoric_acid_from_pentoxide")
-                .inputItems(dust, PhosphorusPentoxide, 14)
+                .inputItems(dust, PhosphorusVOxide, 14)
                 .inputFluids(Water.getFluid(6000))
                 .outputFluids(PhosphoricAcid.getFluid(4000))
                 .duration(40).EUt(VA[LV]).save(provider);

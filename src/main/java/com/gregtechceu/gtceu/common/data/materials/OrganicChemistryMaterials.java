@@ -355,7 +355,7 @@ public class OrganicChemistryMaterials {
                 .color(0xC8B4A0)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 2, Hydrogen, 4, Oxygen, 2)
-                .langValue("Acetic Acid (Ethanoic Acid)")
+                .langValue("Acetic (Ethanoic) Acid")
                 .buildAndRegister();
 
         Phenol = new Material.Builder(GTCEu.id("phenol"))
@@ -496,7 +496,7 @@ public class OrganicChemistryMaterials {
                 .components(Carbon, 8, Hydrogen, 18)
                 .buildAndRegister();
 
-        EthylTertButylEther = new Material.Builder(GTCEu.id("ethyl_tertbutyl_ether"))
+        EthylTertButylEther = new Material.Builder(GTCEu.id("2_ethoxy_2_methylpropane"))
                 .fluid()
                 .flags(DISABLE_DECOMPOSITION)
                 .color(0xB15C06)
@@ -594,7 +594,7 @@ public class OrganicChemistryMaterials {
                 .fluid()
                 .color(0xE0D182)
                 .flags(DISABLE_DECOMPOSITION)
-                .langValue("Acetic Anhydride (Ethanoic Anhydride)")
+                .langValue("Acetic (Ethanoic) Anhydride")
                 .components(Carbon, 4, Hydrogen, 6, Oxygen, 3)
                 .buildAndRegister()
                 .setFormula("(CH3CO)2O", true);

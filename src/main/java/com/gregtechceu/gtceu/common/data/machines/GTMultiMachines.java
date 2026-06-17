@@ -85,12 +85,13 @@ public class GTMultiMachines {
             GTCEu.id("block/casings/solid/machine_casing_stable_titanium"), BoilerFireboxType.TITANIUM_FIREBOX,
             ConfigHolder.INSTANCE.machines.largeBoilers.titaniumBoilerMaxTemperature,
             ConfigHolder.INSTANCE.machines.largeBoilers.titaniumBoilerHeatSpeed);
-    public static final MultiblockMachineDefinition LARGE_BOILER_TUNGSTENSTEEL = registerLargeBoiler("tungstensteel",
-            CASING_TUNGSTENSTEEL_ROBUST, CASING_TUNGSTENSTEEL_PIPE, FIREBOX_TUNGSTENSTEEL,
-            GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"),
-            BoilerFireboxType.TUNGSTENSTEEL_FIREBOX,
-            ConfigHolder.INSTANCE.machines.largeBoilers.tungstensteelBoilerMaxTemperature,
-            ConfigHolder.INSTANCE.machines.largeBoilers.tungstensteelBoilerHeatSpeed);
+    public static final MultiblockMachineDefinition LARGE_BOILER_FERROTUNGSTEN_ALLOY = registerLargeBoiler(
+            "ferrotungsten_alloy",
+            CASING_FERROTUNGSTEN_ALLOY_ROBUST, CASING_FERROTUNGSTEN_ALLOY_PIPE, FIREBOX_FERROTUNGSTEN_ALLOY,
+            GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy"),
+            BoilerFireboxType.FERROTUNGSTEN_ALLOY_FIREBOX,
+            ConfigHolder.INSTANCE.machines.largeBoilers.ferrotungsten_alloyBoilerMaxTemperature,
+            ConfigHolder.INSTANCE.machines.largeBoilers.ferrotungsten_alloyBoilerHeatSpeed);
 
     public static final MultiblockMachineDefinition COKE_OVEN = REGISTRATE
             .multiblock("coke_oven", CokeOvenMachine::new)
@@ -1004,8 +1005,8 @@ public class GTMultiMachines {
 
     public static final MultiblockMachineDefinition EXTREME_COMBUSTION_ENGINE = registerLargeCombustionEngine(
             "extreme_combustion_engine", IV,
-            CASING_TUNGSTENSTEEL_ROBUST, CASING_TUNGSTENSTEEL_GEARBOX, CASING_EXTREME_ENGINE_INTAKE,
-            GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"),
+            CASING_FERROTUNGSTEN_ALLOY_ROBUST, CASING_FERROTUNGSTEN_ALLOY_GEARBOX, CASING_EXTREME_ENGINE_INTAKE,
+            GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy"),
             GTCEu.id("block/multiblock/generator/extreme_combustion_engine"));
 
     public static final MultiblockMachineDefinition LARGE_STEAM_TURBINE = registerLargeTurbine("steam_large_turbine",
@@ -1026,8 +1027,8 @@ public class GTMultiMachines {
     public static final MultiblockMachineDefinition LARGE_PLASMA_TURBINE = registerLargeTurbine("plasma_large_turbine",
             IV,
             GTRecipeTypes.PLASMA_GENERATOR_FUELS,
-            CASING_TUNGSTENSTEEL_TURBINE, CASING_TUNGSTENSTEEL_GEARBOX,
-            GTCEu.id("block/casings/mechanic/machine_casing_turbine_tungstensteel"),
+            CASING_FERROTUNGSTEN_ALLOY_TURBINE, CASING_FERROTUNGSTEN_ALLOY_GEARBOX,
+            GTCEu.id("block/casings/mechanic/machine_casing_turbine_ferrotungsten_alloy"),
             GTCEu.id("block/multiblock/generator/large_plasma_turbine"),
             false);
 

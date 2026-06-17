@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "gtceu:tungstensteel_turbine_casing"
+          "name": "gtceu:ferrotungsten_alloy_firebox_casing"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "gtceu:blocks/tungstensteel_turbine_casing"
+  "random_sequence": "gtceu:blocks/ferrotungsten_alloy_firebox_casing"
 }

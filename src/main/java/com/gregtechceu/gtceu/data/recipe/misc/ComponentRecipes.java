@@ -79,7 +79,7 @@ public class ComponentRecipes {
                 new MaterialEntry(rod, NeodymiumMagnetic));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "electric_motor_iv", ELECTRIC_MOTOR_IV.asStack(), "CWR",
                 "WMW", "RWC", 'C', new MaterialEntry(cableGtDouble, Tungsten), 'W',
-                new MaterialEntry(wireGtDouble, Graphene), 'R', new MaterialEntry(rod, TungstenSteel), 'M',
+                new MaterialEntry(wireGtDouble, Graphene), 'R', new MaterialEntry(rod, FerrotungstenAlloy), 'M',
                 new MaterialEntry(rod, NeodymiumMagnetic));
 
         ASSEMBLER_RECIPES.recipeBuilder("electric_motor_lv_iron")
@@ -124,7 +124,7 @@ public class ComponentRecipes {
 
         ASSEMBLER_RECIPES.recipeBuilder("electric_motor_iv")
                 .inputItems(cableGtDouble, Tungsten, 2)
-                .inputItems(rod, TungstenSteel, 2)
+                .inputItems(rod, FerrotungstenAlloy, 2)
                 .inputItems(rod, NeodymiumMagnetic)
                 .inputItems(wireGtDouble, Graphene, 4)
                 .outputItems(ELECTRIC_MOTOR_IV)
@@ -336,9 +336,9 @@ public class ComponentRecipes {
             if (!material.equals(Rubber))
                 VanillaRecipeHelper.addShapedRecipe(provider, material.equals(SiliconeRubber),
                         String.format("electric_pump_iv_%s", name), ELECTRIC_PUMP_IV.asStack(), "SXR", "dPw", "RMC",
-                        'S', new MaterialEntry(screw, TungstenSteel), 'X',
-                        new MaterialEntry(rotor, TungstenSteel), 'P',
-                        new MaterialEntry(pipeNormalFluid, TungstenSteel), 'R', new MaterialEntry(ring, material),
+                        'S', new MaterialEntry(screw, FerrotungstenAlloy), 'X',
+                        new MaterialEntry(rotor, FerrotungstenAlloy), 'P',
+                        new MaterialEntry(pipeNormalFluid, FerrotungstenAlloy), 'R', new MaterialEntry(ring, material),
                         'C', new MaterialEntry(cableGtSingle, Tungsten), 'M', ELECTRIC_MOTOR_IV.asStack());
 
             ASSEMBLER_RECIPES.recipeBuilder("electric_pump_lv_" + name)
@@ -384,9 +384,9 @@ public class ComponentRecipes {
             if (!materialEntry.getValue().equals(Rubber))
                 ASSEMBLER_RECIPES.recipeBuilder("electric_pump_iv_" + name)
                         .inputItems(cableGtSingle, Tungsten)
-                        .inputItems(pipeNormalFluid, TungstenSteel)
-                        .inputItems(screw, TungstenSteel)
-                        .inputItems(rotor, TungstenSteel)
+                        .inputItems(pipeNormalFluid, FerrotungstenAlloy)
+                        .inputItems(screw, FerrotungstenAlloy)
+                        .inputItems(rotor, FerrotungstenAlloy)
                         .inputItems(ring, materialEntry.getValue(), 2)
                         .inputItems(ELECTRIC_MOTOR_IV)
                         .outputItems(ELECTRIC_PUMP_IV)
@@ -675,9 +675,9 @@ public class ComponentRecipes {
                 new MaterialEntry(cableGtSingle, Aluminium), 'R', new MaterialEntry(rod, Titanium), 'G',
                 new MaterialEntry(gearSmall, Titanium), 'M', ELECTRIC_MOTOR_EV.asStack());
         VanillaRecipeHelper.addShapedRecipe(provider, true, "electric_piston_iv", ELECTRIC_PISTON_IV.asStack(), "PPP",
-                "CRR", "CMG", 'P', new MaterialEntry(plate, TungstenSteel), 'C',
-                new MaterialEntry(cableGtSingle, Tungsten), 'R', new MaterialEntry(rod, TungstenSteel), 'G',
-                new MaterialEntry(gearSmall, TungstenSteel), 'M', ELECTRIC_MOTOR_IV.asStack());
+                "CRR", "CMG", 'P', new MaterialEntry(plate, FerrotungstenAlloy), 'C',
+                new MaterialEntry(cableGtSingle, Tungsten), 'R', new MaterialEntry(rod, FerrotungstenAlloy), 'G',
+                new MaterialEntry(gearSmall, FerrotungstenAlloy), 'M', ELECTRIC_MOTOR_IV.asStack());
 
         ASSEMBLER_RECIPES.recipeBuilder("electric_piston_lv")
                 .inputItems(rod, Steel, 2)
@@ -716,10 +716,10 @@ public class ComponentRecipes {
                 .duration(100).EUt(VA[LV]).save(provider);
 
         ASSEMBLER_RECIPES.recipeBuilder("electric_piston_iv")
-                .inputItems(rod, TungstenSteel, 2)
+                .inputItems(rod, FerrotungstenAlloy, 2)
                 .inputItems(cableGtSingle, Tungsten, 2)
-                .inputItems(plate, TungstenSteel, 3)
-                .inputItems(gearSmall, TungstenSteel)
+                .inputItems(plate, FerrotungstenAlloy, 3)
+                .inputItems(gearSmall, FerrotungstenAlloy)
                 .inputItems(ELECTRIC_MOTOR_IV)
                 .outputItems(ELECTRIC_PISTON_IV)
                 .duration(100).EUt(VA[LV]).save(provider);
@@ -812,7 +812,7 @@ public class ComponentRecipes {
                 'C', new MaterialEntry(cableGtSingle, Aluminium), 'R', new MaterialEntry(rod, Titanium), 'M',
                 ELECTRIC_MOTOR_EV.asStack(), 'P', ELECTRIC_PISTON_EV.asStack(), 'X', CustomTags.EV_CIRCUITS);
         VanillaRecipeHelper.addShapedRecipe(provider, true, "robot_arm_iv", ROBOT_ARM_IV.asStack(), "CCC", "MRM", "PXR",
-                'C', new MaterialEntry(cableGtSingle, Tungsten), 'R', new MaterialEntry(rod, TungstenSteel), 'M',
+                'C', new MaterialEntry(cableGtSingle, Tungsten), 'R', new MaterialEntry(rod, FerrotungstenAlloy), 'M',
                 ELECTRIC_MOTOR_IV.asStack(), 'P', ELECTRIC_PISTON_IV.asStack(), 'X', CustomTags.IV_CIRCUITS);
 
         ASSEMBLER_RECIPES.recipeBuilder("robot_arm_lv")
@@ -853,7 +853,7 @@ public class ComponentRecipes {
 
         ASSEMBLER_RECIPES.recipeBuilder("robot_arm_iv")
                 .inputItems(cableGtSingle, Tungsten, 3)
-                .inputItems(rod, TungstenSteel, 2)
+                .inputItems(rod, FerrotungstenAlloy, 2)
                 .inputItems(ELECTRIC_MOTOR_IV, 2)
                 .inputItems(ELECTRIC_PISTON_IV)
                 .inputItems(CustomTags.IV_CIRCUITS)
@@ -940,7 +940,7 @@ public class ComponentRecipes {
                 CustomTags.EV_CIRCUITS);
         VanillaRecipeHelper.addShapedRecipe(provider, true, "field_generator_iv", FIELD_GENERATOR_IV.asStack(), "WPW",
                 "XGX", "WPW", 'W', new MaterialEntry(wireGtQuadruple, SamariumIronArsenicOxide), 'P',
-                new MaterialEntry(plateDouble, TungstenSteel), 'G', QUANTUM_STAR.asStack(), 'X',
+                new MaterialEntry(plateDouble, FerrotungstenAlloy), 'G', QUANTUM_STAR.asStack(), 'X',
                 CustomTags.IV_CIRCUITS);
 
         ASSEMBLER_RECIPES.recipeBuilder("field_generator_lv")
@@ -977,7 +977,7 @@ public class ComponentRecipes {
 
         ASSEMBLER_RECIPES.recipeBuilder("field_generator_iv")
                 .inputItems(QUANTUM_STAR)
-                .inputItems(plateDouble, TungstenSteel, 2)
+                .inputItems(plateDouble, FerrotungstenAlloy, 2)
                 .inputItems(CustomTags.IV_CIRCUITS, 2)
                 .inputItems(wireGtQuadruple, SamariumIronArsenicOxide, 4)
                 .outputItems(FIELD_GENERATOR_IV)
@@ -1052,7 +1052,7 @@ public class ComponentRecipes {
                 new MaterialEntry(plate, Titanium), 'R', new MaterialEntry(rod, Platinum), 'G',
                 GTCraftingComponents.SENSOR_EMITTER_GEM.get(EV), 'X', CustomTags.EV_CIRCUITS);
         VanillaRecipeHelper.addShapedRecipe(provider, true, "sensor_iv", SENSOR_IV.asStack(), "P G", "PR ", "XPP", 'P',
-                new MaterialEntry(plate, TungstenSteel), 'R', new MaterialEntry(rod, Iridium), 'G',
+                new MaterialEntry(plate, FerrotungstenAlloy), 'R', new MaterialEntry(rod, Iridium), 'G',
                 GTCraftingComponents.SENSOR_EMITTER_GEM.get(IV), 'X', CustomTags.IV_CIRCUITS);
 
         ASSEMBLER_RECIPES.recipeBuilder("sensor_lv")
@@ -1089,7 +1089,7 @@ public class ComponentRecipes {
 
         ASSEMBLER_RECIPES.recipeBuilder("sensor_iv")
                 .inputItems(rod, Iridium)
-                .inputItems(plate, TungstenSteel, 4)
+                .inputItems(plate, FerrotungstenAlloy, 4)
                 .inputItems(CustomTags.IV_CIRCUITS)
                 .inputItems(GTCraftingComponents.SENSOR_EMITTER_GEM.get(IV))
                 .outputItems(SENSOR_IV)

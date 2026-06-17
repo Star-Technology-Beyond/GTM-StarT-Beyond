@@ -44,7 +44,7 @@ public class BlockLang {
         replace(provider, "block.gtceu.steel_machine_casing", "Solid Steel Machine Casing");
         replace(provider, "block.gtceu.clean_machine_casing", "Clean Stainless Steel Casing");
         replace(provider, "block.gtceu.stable_machine_casing", "Stable Titanium Machine Casing");
-        replace(provider, "block.gtceu.robust_machine_casing", "Robust Tungstensteel Machine Casing");
+        replace(provider, "block.gtceu.robust_machine_casing", "Robust Ferrotungsten Alloy Machine Casing");
         replace(provider, "block.gtceu.casing_coke_bricks", "Coke Oven Bricks");
         replace(provider, "block.gtceu.inert_machine_casing", "Chemically Inert PTFE Machine Casing");
         replace(provider, "block.gtceu.sturdy_machine_casing", "Sturdy HSS-E Machine Casing");
@@ -55,15 +55,15 @@ public class BlockLang {
         replace(provider, "block.gtceu.steel_gearbox", "Steel Gearbox Casing");
         replace(provider, "block.gtceu.stainless_steel_gearbox", "Stainless Steel Gearbox Casing");
         replace(provider, "block.gtceu.titanium_gearbox", "Titanium Gearbox Casing");
-        replace(provider, "block.gtceu.tungstensteel_gearbox", "Tungstensteel Gearbox Casing");
+        replace(provider, "block.gtceu.ferrotungsten_alloy_gearbox", "Ferrotungsten Alloy Gearbox Casing");
         replace(provider, "block.gtceu.steel_turbine_casing", "Magnalium Turbine Casing");
         replace(provider, "block.gtceu.titanium_turbine_casing", "Titanium Turbine Casing");
         replace(provider, "block.gtceu.stainless_steel_turbine_casing", "Stainless Turbine Casing");
-        replace(provider, "block.gtceu.tungstensteel_turbine_casing", "Tungstensteel Turbine Casing");
+        replace(provider, "block.gtceu.ferrotungsten_alloy_turbine_casing", "Ferrotungsten Alloy Turbine Casing");
         replace(provider, "block.gtceu.bronze_pipe_casing", "Bronze Pipe Casing");
         replace(provider, "block.gtceu.steel_pipe_casing", "Steel Pipe Casing");
         replace(provider, "block.gtceu.titanium_pipe_casing", "Titanium Pipe Casing");
-        replace(provider, "block.gtceu.tungstensteel_pipe_casing", "Tungstensteel Pipe Casing");
+        replace(provider, "block.gtceu.ferrotungsten_alloy_pipe_casing", "Ferrotungsten Alloy Pipe Casing");
         replace(provider, "block.gtceu.palladium_substation", "Palladium Substation Casing");
 
         replace(provider, "block.gtceu.steam_casing_bronze", "Bronze Hull");

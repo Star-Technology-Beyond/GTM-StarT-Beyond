@@ -26,7 +26,7 @@ public class GTMedicalConditions {
             MedicalCondition.IdleProgressionType.NONE, 0, false,
             new Symptom.ConfiguredSymptom(Symptom.WEAK_POISONING, 6, .3f))
             .setRecipeModifier(builder -> builder
-                    .outputFluids(NitricOxide.getFluid(1000)));
+                    .outputFluids(NitrogenMonoxide.getFluid(1000)));
     public static final MedicalCondition IRRITANT = new MedicalCondition("irritant", 0x02512f, 600,
             MedicalCondition.IdleProgressionType.HEAL, 5, false,
             new Symptom.ConfiguredSymptom(Symptom.RANDOM_DAMAGE),

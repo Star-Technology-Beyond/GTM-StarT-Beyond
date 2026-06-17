@@ -904,7 +904,7 @@ public class FirstDegreeMaterials {
                 .components(Sodium, 2, Sulfur, 1)
                 .buildAndRegister();
 
-        PhosphorusPentoxide = new Material.Builder(GTCEu.id("phosphorus_pentoxide"))
+        PhosphorusVOxide = new Material.Builder(GTCEu.id("phosphorus_v_oxide"))
                 .dust(1)
                 .colors(0xe89188, 0x220202)
                 .flags(DECOMPOSITION_BY_CENTRIFUGING)
@@ -985,14 +985,14 @@ public class FirstDegreeMaterials {
                 .components(Zinc, 1, Oxygen, 1)
                 .buildAndRegister();
 
-        CupricOxide = new Material.Builder(GTCEu.id("cupric_oxide"))
+        CopperIIOxide = new Material.Builder(GTCEu.id("copper_ii_oxide"))
                 .dust(1)
                 .colors(0x8df7cf, 0x57696e)
                 .components(Copper, 1, Oxygen, 1)
                 .langValue("Copper(II) Oxide")
                 .buildAndRegister();
 
-        CobaltOxide = new Material.Builder(GTCEu.id("cobalt_oxide"))
+        CobaltIIOxide = new Material.Builder(GTCEu.id("cobalt_ii_oxide"))
                 .dust(1)
                 .colors(0x3cb099, 0x3b5c66)
                 .components(Cobalt, 1, Oxygen, 1)
@@ -1220,7 +1220,7 @@ public class FirstDegreeMaterials {
                 // TODO HF poisoning .hazard(HazardProperty.HazardTrigger.ANY)
                 .buildAndRegister();
 
-        NitricOxide = new Material.Builder(GTCEu.id("nitric_oxide"))
+        NitrogenMonoxide = new Material.Builder(GTCEu.id("nitrogen_monoxide"))
                 .gas()
                 .color(0x7DC8F0)
                 .components(Nitrogen, 1, Oxygen, 1)
@@ -1228,7 +1228,7 @@ public class FirstDegreeMaterials {
                 .langValue("Nitrogen Monoxide")
                 .buildAndRegister();
 
-        Iron3Chloride = new Material.Builder(GTCEu.id("iron_iii_chloride"))
+        IronIIIChloride = new Material.Builder(GTCEu.id("iron_iii_chloride"))
                 .langValue("Iron(III) Chloride")
                 .liquid()
                 .color(0x060B0B)
@@ -1236,7 +1236,7 @@ public class FirstDegreeMaterials {
                 .components(Iron, 1, Chlorine, 3)
                 .buildAndRegister();
 
-        Iron2Chloride = new Material.Builder(GTCEu.id("iron_ii_chloride"))
+        IronIIChloride = new Material.Builder(GTCEu.id("iron_ii_chloride"))
                 .langValue("Iron(II) Chloride")
                 .liquid()
                 .color(0xe8e0be)
@@ -1266,7 +1266,7 @@ public class FirstDegreeMaterials {
                 .components(Uranium238, 1, Fluorine, 6)
                 .buildAndRegister();
 
-        NitrousOxide = new Material.Builder(GTCEu.id("nitrous_oxide"))
+        DinitrogenMonoxide = new Material.Builder(GTCEu.id("dinitrogen_monoxide"))
                 .gas()
                 .color(0x7DC8FF)
                 .components(Nitrogen, 2, Oxygen, 1)
@@ -1319,7 +1319,7 @@ public class FirstDegreeMaterials {
                 .components(Hydrogen, 2, Oxygen, 1)
                 .buildAndRegister();
 
-        SodiumPotassium = new Material.Builder(GTCEu.id("sodium_potassium"))
+        SodiumPotassium = new Material.Builder(GTCEu.id("nak_alloy"))
                 .fluid()
                 .color(0x64FCB4)
                 .flags(DECOMPOSITION_BY_CENTRIFUGING)
@@ -1372,7 +1372,7 @@ public class FirstDegreeMaterials {
                         .vacuumStats(VA[HV]))
                 .buildAndRegister();
 
-        UraniumTriplatinum = new Material.Builder(GTCEu.id("uranium_triplatinum"))
+        UraniumTriplatinum = new Material.Builder(GTCEu.id("uranium_platinum_alloy"))
                 .ingot()
                 .liquid(new FluidBuilder().temperature(1882))
                 .colors(0x457045, 0x66ff00).iconSet(RADIOACTIVE)

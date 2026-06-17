@@ -82,7 +82,7 @@ public class LCRCombined {
                 .category(GTRecipeCategories.LCR_SKIP)
                 .duration(120).EUt(VA[HV]).save(provider);
 
-        LARGE_CHEMICAL_RECIPES.recipeBuilder("cetane_diesel_from_bio_diesel_shortcut")
+        LARGE_CHEMICAL_RECIPES.recipeBuilder("cetane_diesel_from_biodiesel_shortcut")
                 .circuitMeta(24)
                 .inputFluids(BioDiesel.getFluid(10000))
                 .inputFluids(Tetranitromethane.getFluid(400))

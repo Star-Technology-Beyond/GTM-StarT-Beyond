@@ -84,7 +84,7 @@ public class GTMaterials {
                 Aluminium,
                 StainlessSteel,
                 Titanium,
-                TungstenSteel,
+                FerrotungstenAlloy,
                 RhodiumPlatedPalladium,
                 NaquadahAlloy,
                 Darmstadtium,
@@ -559,7 +559,7 @@ public class GTMaterials {
     public static Material SiliconDioxide;
     public static Material MagnesiumChloride;
     public static Material SodiumSulfide;
-    public static Material PhosphorusPentoxide;
+    public static Material PhosphorusVOxide;
     public static Material Quicklime;
     public static Material SodiumBisulfate;
     public static Material FerriteMixture;
@@ -571,8 +571,8 @@ public class GTMaterials {
     public static Material ChromiumTrioxide;
     public static Material AntimonyTrioxide;
     public static Material Zincite;
-    public static Material CupricOxide;
-    public static Material CobaltOxide;
+    public static Material CopperIIOxide;
+    public static Material CobaltIIOxide;
     public static Material ArsenicTrioxide;
     public static Material Massicot;
     public static Material Ferrosilite;
@@ -606,13 +606,13 @@ public class GTMaterials {
     public static Material HypochlorousAcid;
     public static Material Ammonia;
     public static Material HydrofluoricAcid;
-    public static Material NitricOxide;
-    public static Material Iron3Chloride;
-    public static Material Iron2Chloride;
+    public static Material NitrogenMonoxide;
+    public static Material IronIIIChloride;
+    public static Material IronIIChloride;
     public static Material UraniumHexafluoride;
     public static Material EnrichedUraniumHexafluoride;
     public static Material DepletedUraniumHexafluoride;
-    public static Material NitrousOxide;
+    public static Material DinitrogenMonoxide;
     public static Material EnderPearl;
     public static Material PotassiumFeldspar;
     public static Material NeodymiumMagnetic;
@@ -904,7 +904,7 @@ public class GTMaterials {
     public static Material Apatite;
     public static Material BlackSteel;
     public static Material DamascusSteel;
-    public static Material TungstenSteel;
+    public static Material FerrotungstenAlloy;
     public static Material CobaltBrass;
     public static Material TricalciumPhosphate;
     public static Material GarnetRed;
@@ -931,8 +931,8 @@ public class GTMaterials {
     public static Material Potin;
     public static Material BorosilicateGlass;
     public static Material NaquadahAlloy;
-    public static Material SulfuricNickelSolution;
-    public static Material SulfuricCopperSolution;
+    public static Material AcidicNickelSolution;
+    public static Material AcidicCopperSulfateSolution;
     public static Material LeadZincSolution;
     public static Material NitrationMixture;
     public static Material DilutedSulfuricAcid;

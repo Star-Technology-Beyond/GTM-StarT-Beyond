@@ -133,7 +133,7 @@ public class SecondDegreeMaterials {
                 .blast(1500, GasTier.LOW)
                 .buildAndRegister();
 
-        TungstenSteel = new Material.Builder(GTCEu.id("tungsten_steel"))
+        FerrotungstenAlloy = new Material.Builder(GTCEu.id("ferrotungsten_alloy"))
                 .langValue("Ferrotungsten Alloy")
                 .ingot(4).fluid()
                 .colors(0x687ece, 0x03192f).iconSet(METALLIC)
@@ -352,14 +352,14 @@ public class SecondDegreeMaterials {
                         .vacuumStats(VA[IV], 300))
                 .buildAndRegister();
 
-        SulfuricNickelSolution = new Material.Builder(GTCEu.id("sulfuric_nickel_solution"))
+        AcidicNickelSolution = new Material.Builder(GTCEu.id("acidic_nickel_solution"))
                 .liquid(new FluidBuilder().attribute(FluidAttributes.ACID))
                 .color(0x3EB640)
                 .components(Nickel, 1, Oxygen, 1, SulfuricAcid, 1)
                 .langValue("Acidic Nickel Solution")
                 .buildAndRegister();
 
-        SulfuricCopperSolution = new Material.Builder(GTCEu.id("sulfuric_copper_solution"))
+        AcidicCopperSulfateSolution = new Material.Builder(GTCEu.id("acidic_copper_sulfate_solution"))
                 .liquid(new FluidBuilder().attribute(FluidAttributes.ACID))
                 .color(0x48A5C0)
                 .components(Copper, 1, Oxygen, 1, SulfuricAcid, 1)

@@ -19,42 +19,42 @@ public class PlatGroupMetalsRecipes {
                 .inputItems(crushedPurified, Chalcopyrite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 2)
-                .outputFluids(SulfuricCopperSolution.getFluid(1000))
+                .outputFluids(AcidicCopperSulfateSolution.getFluid(1000))
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("pgs_from_chalcocite").duration(50).EUt(VA[LV])
                 .inputItems(crushedPurified, Chalcocite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 2)
-                .outputFluids(SulfuricCopperSolution.getFluid(1000))
+                .outputFluids(AcidicCopperSulfateSolution.getFluid(1000))
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("pgs_from_bornite").duration(50).EUt(VA[LV])
                 .inputItems(crushedPurified, Bornite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 2)
-                .outputFluids(SulfuricCopperSolution.getFluid(1000))
+                .outputFluids(AcidicCopperSulfateSolution.getFluid(1000))
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("pgs_from_tetrahedrite").duration(50).EUt(VA[LV])
                 .inputItems(crushedPurified, Tetrahedrite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 2)
-                .outputFluids(SulfuricCopperSolution.getFluid(1000))
+                .outputFluids(AcidicCopperSulfateSolution.getFluid(1000))
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("pgs_from_pentlandite").duration(50).EUt(VA[LV])
                 .inputItems(crushedPurified, Pentlandite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 2)
-                .outputFluids(SulfuricNickelSolution.getFluid(1000))
+                .outputFluids(AcidicNickelSolution.getFluid(1000))
                 .save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("pgs_from_cooperite").duration(50).EUt(VA[LV])
                 .inputItems(crushedPurified, Cooperite)
                 .inputFluids(NitricAcid.getFluid(100))
                 .outputItems(dust, PlatinumGroupSludge, 4)
-                .outputFluids(SulfuricNickelSolution.getFluid(1000))
+                .outputFluids(AcidicNickelSolution.getFluid(1000))
                 .save(provider);
 
         // Aqua Regia

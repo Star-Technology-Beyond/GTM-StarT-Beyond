@@ -485,7 +485,7 @@ public class PolymerRecipes {
 
         CHEMICAL_RECIPES.recipeBuilder("nitrosyl_chloride").EUt(VA[LV]).duration(100)
                 .inputFluids(Chlorine.getFluid(1000))
-                .inputFluids(NitricOxide.getFluid(1000))
+                .inputFluids(NitrogenMonoxide.getFluid(1000))
                 .outputFluids(NitrosylChloride.getFluid(1000))
                 .save(provider);
 

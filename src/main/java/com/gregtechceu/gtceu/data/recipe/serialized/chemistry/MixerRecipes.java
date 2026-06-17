@@ -386,11 +386,11 @@ public class MixerRecipes {
                 .outputItems(dust, TungstenCarbide, 2)
                 .save(provider);
 
-        MIXER_RECIPES.recipeBuilder("tungstensteel").duration(200).EUt(VA[EV])
+        MIXER_RECIPES.recipeBuilder("ferrotungsten_alloy").duration(200).EUt(VA[EV])
                 .inputItems(dust, Tungsten)
                 .inputItems(dust, Steel)
                 .circuitMeta(1)
-                .outputItems(dust, TungstenSteel, 2)
+                .outputItems(dust, FerrotungstenAlloy, 2)
                 .save(provider);
 
         MIXER_RECIPES.recipeBuilder("vanadium_gallium").duration(400).EUt(VA[EV])
@@ -401,7 +401,7 @@ public class MixerRecipes {
                 .save(provider);
 
         MIXER_RECIPES.recipeBuilder("hssg").duration(400).EUt(VA[EV])
-                .inputItems(dust, TungstenSteel, 5)
+                .inputItems(dust, FerrotungstenAlloy, 5)
                 .inputItems(dust, Chromium)
                 .inputItems(dust, Molybdenum, 2)
                 .inputItems(dust, Vanadium)
@@ -532,7 +532,7 @@ public class MixerRecipes {
                 .outputItems(dust, MercuryBariumCalciumCuprate, 16)
                 .save(provider);
 
-        MIXER_RECIPES.recipeBuilder("uranium_triplatinum").duration(200).EUt(VA[EV])
+        MIXER_RECIPES.recipeBuilder("uranium_platinum_alloy").duration(200).EUt(VA[EV])
                 .inputItems(dust, Uranium238)
                 .inputItems(dust, Platinum, 3)
                 .circuitMeta(4)

@@ -624,7 +624,7 @@ public class MachineLang {
         provider.add("gtceu.machine.large_boiler.bronze.tooltip", "We need more Steam!");
         provider.add("gtceu.machine.large_boiler.steel.tooltip", "Charcoal Incinerator");
         provider.add("gtceu.machine.large_boiler.titanium.tooltip", "Where's the Magic Super Fuel?");
-        provider.add("gtceu.machine.large_boiler.tungstensteel.tooltip", "How do you even fuel this thing?");
+        provider.add("gtceu.machine.large_boiler.ferrotungsten_alloy.tooltip", "How do you even fuel this thing?");
         provider.add("gtceu.machine.coke_oven.tooltip", "Making better fuels for Steel and Power");
         provider.add("gtceu.machine.assembly_line.tooltip", "Not a multiblock Assembling Machine!");
         provider.add("gtceu.machine.fusion_reactor.luv.tooltip", "Atomic Alloy Smelter");
@@ -1004,7 +1004,7 @@ public class MachineLang {
         replace(provider, "block.gtceu.bronze_large_boiler", "Large Bronze Boiler [LBB]");
         replace(provider, "block.gtceu.steel_large_boiler", "Large Steel Boiler [LSB]");
         replace(provider, "block.gtceu.titanium_large_boiler", "Large Titanium Boiler [LTB]");
-        replace(provider, "block.gtceu.tungstensteel_large_boiler", "Large Tungstensteel Boiler [LTsB]");
+        replace(provider, "block.gtceu.ferrotungsten_alloy_large_boiler", "Large Ferrotungsten Alloy Boiler [LTsB]");
         replace(provider, "block.gtceu.large_combustion_engine", "Large Combustion Engine [LCE]");
         replace(provider, "block.gtceu.extreme_combustion_engine", "Extreme Combustion Engine [ECE]");
         replace(provider, "block.gtceu.steam_large_turbine", "Large Steam Turbine [LST]");

@@ -137,15 +137,15 @@ public class ReactorRecipes {
                 .inputItems(dust, Iron)
                 .inputFluids(HydrochloricAcid.getFluid(3000))
                 .circuitMeta(1)
-                .outputFluids(Iron3Chloride.getFluid(1000))
+                .outputFluids(IronIIIChloride.getFluid(1000))
                 .outputFluids(Hydrogen.getFluid(3000))
                 .duration(400).EUt(VA[LV])
                 .save(provider);
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("iron_2_chloride")
-                .inputFluids(Iron3Chloride.getFluid(2000))
+                .inputFluids(IronIIIChloride.getFluid(2000))
                 .inputFluids(Chlorobenzene.getFluid(1000))
-                .outputFluids(Iron2Chloride.getFluid(2000))
+                .outputFluids(IronIIChloride.getFluid(2000))
                 .outputFluids(HydrochloricAcid.getFluid(1000))
                 .outputFluids(Dichlorobenzene.getFluid(1000))
                 .duration(400).EUt(VA[MV])
@@ -685,7 +685,7 @@ public class ReactorRecipes {
                 .outputFluids(SaltWater.getFluid(1000))
                 .duration(400).EUt(VA[LV]).save(provider);
 
-        CHEMICAL_RECIPES.recipeBuilder("sodium_potassium")
+        CHEMICAL_RECIPES.recipeBuilder("nak_alloy")
                 .inputItems(dust, Sodium)
                 .inputItems(dust, Potassium)
                 .outputFluids(SodiumPotassium.getFluid(1000))

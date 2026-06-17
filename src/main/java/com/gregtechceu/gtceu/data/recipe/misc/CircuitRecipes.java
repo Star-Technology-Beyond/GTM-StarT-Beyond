@@ -814,7 +814,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("good_circuit_board_iron3").EUt(VA[LV]).duration(300)
                 .inputItems(PHENOLIC_BOARD)
                 .inputItems(foil, Silver, 4)
-                .inputFluids(Iron3Chloride.getFluid(100))
+                .inputFluids(IronIIIChloride.getFluid(100))
                 .outputItems(GOOD_CIRCUIT_BOARD)
                 .save(provider);
 
@@ -858,7 +858,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("plastic_circuit_board_iron3").duration(600).EUt(VA[LV])
                 .inputItems(PLASTIC_BOARD)
                 .inputItems(foil, Copper, 6)
-                .inputFluids(Iron3Chloride.getFluid(250))
+                .inputFluids(IronIIIChloride.getFluid(250))
                 .outputItems(PLASTIC_CIRCUIT_BOARD)
                 .save(provider);
 
@@ -881,7 +881,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("advanced_circuit_board_iron3").duration(900).EUt(VA[LV])
                 .inputItems(EPOXY_BOARD)
                 .inputItems(foil, Electrum, 8)
-                .inputFluids(Iron3Chloride.getFluid(500))
+                .inputFluids(IronIIIChloride.getFluid(500))
                 .outputItems(ADVANCED_CIRCUIT_BOARD)
                 .save(provider);
 
@@ -924,7 +924,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("extreme_circuit_board_iron3").duration(1200).EUt(VA[LV])
                 .inputItems(FIBER_BOARD)
                 .inputItems(foil, AnnealedCopper, 12)
-                .inputFluids(Iron3Chloride.getFluid(1000))
+                .inputFluids(IronIIIChloride.getFluid(1000))
                 .outputItems(EXTREME_CIRCUIT_BOARD)
                 .cleanroom(CleanroomType.CLEANROOM)
                 .save(provider);
@@ -950,7 +950,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("elite_circuit_board_iron3").duration(1500).EUt(VA[MV])
                 .inputItems(MULTILAYER_FIBER_BOARD)
                 .inputItems(foil, Platinum, 8)
-                .inputFluids(Iron3Chloride.getFluid(2000))
+                .inputFluids(IronIIIChloride.getFluid(2000))
                 .outputItems(ELITE_CIRCUIT_BOARD)
                 .cleanroom(CleanroomType.CLEANROOM)
                 .save(provider);
@@ -992,7 +992,7 @@ public class CircuitRecipes {
         CHEMICAL_RECIPES.recipeBuilder("wetware_circuit_board_iron3").duration(1800).EUt(VA[HV])
                 .inputItems(WETWARE_BOARD)
                 .inputItems(foil, NiobiumTitanium, 32)
-                .inputFluids(Iron3Chloride.getFluid(5000))
+                .inputFluids(IronIIIChloride.getFluid(5000))
                 .outputItems(WETWARE_CIRCUIT_BOARD)
                 .cleanroom(CleanroomType.CLEANROOM)
                 .save(provider);

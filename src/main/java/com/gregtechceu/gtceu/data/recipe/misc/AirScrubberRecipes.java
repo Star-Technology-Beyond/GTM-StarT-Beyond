@@ -41,7 +41,7 @@ public class AirScrubberRecipes {
          * 
          * AIR_SCRUBBER_RECIPES.recipeBuilder("weak_poison")
          * .circuitMeta(5)
-         * .outputFluids(NitricOxide.getFluid(1000))
+         * .outputFluids(NitrogenMonoxide.getFluid(1000))
          * .environmentalHazard(GTMedicalConditions.WEAK_POISON)
          * .duration(200).EUt(VHA[LV]).save(provider);
          * 

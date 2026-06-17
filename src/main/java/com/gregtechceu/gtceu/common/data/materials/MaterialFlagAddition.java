@@ -16,7 +16,7 @@ public class MaterialFlagAddition {
         oreProp.setOreByProducts(Emerald, Emerald, Thorium);
 
         oreProp = Cobalt.getProperty(PropertyKey.ORE);
-        oreProp.setOreByProducts(CobaltOxide, Cobaltite);
+        oreProp.setOreByProducts(CobaltIIOxide, Cobaltite);
         oreProp.setWashedIn(SodiumPersulfate);
 
         oreProp = Copper.getProperty(PropertyKey.ORE);
@@ -256,7 +256,7 @@ public class MaterialFlagAddition {
         oreProp.setOreByProducts(Uraninite, Thorium, Silver);
 
         oreProp = Limonite.getProperty(PropertyKey.ORE);
-        oreProp.setOreByProducts(Nickel, Goethite, CobaltOxide);
+        oreProp.setOreByProducts(Nickel, Goethite, CobaltIIOxide);
         oreProp.setSeparatedInto(Iron);
         oreProp.setWashedIn(SodiumPersulfate);
         oreProp.setDirectSmeltResult(Iron);

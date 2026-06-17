@@ -728,11 +728,11 @@ public class ConfigHolder {
             @Configurable.Comment({ "The heat speed of the Large Titanium Boiler.", "Default: 1" })
             public int titaniumBoilerHeatSpeed = 1;
             @Configurable
-            @Configurable.Comment({ "The max temperature of the Large Tungstensteel Boiler.", "Default: 6400" })
-            public int tungstensteelBoilerMaxTemperature = 6400;
+            @Configurable.Comment({ "The max temperature of the Large Ferrotungsten Alloy Boiler.", "Default: 6400" })
+            public int ferrotungsten_alloyBoilerMaxTemperature = 6400;
             @Configurable
-            @Configurable.Comment({ "The heat speed of the Large Tungstensteel Boiler.", "Default: 2" })
-            public int tungstensteelBoilerHeatSpeed = 2;
+            @Configurable.Comment({ "The heat speed of the Large Ferrotungsten Alloy Boiler.", "Default: 2" })
+            public int ferrotungsten_alloyBoilerHeatSpeed = 2;
         }
     }
 

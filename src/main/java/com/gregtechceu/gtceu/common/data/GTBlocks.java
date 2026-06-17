@@ -232,8 +232,8 @@ public class GTBlocks {
             GTCEu.id("block/casings/solid/machine_casing_clean_stainless_steel"));
     public static final BlockEntry<Block> CASING_TITANIUM_STABLE = createCasingBlock("stable_machine_casing",
             GTCEu.id("block/casings/solid/machine_casing_stable_titanium"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_ROBUST = createCasingBlock("robust_machine_casing",
-            GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"));
+    public static final BlockEntry<Block> CASING_FERROTUNGSTEN_ALLOY_ROBUST = createCasingBlock("robust_machine_casing",
+            GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy"));
     public static final BlockEntry<Block> CASING_PTFE_INERT = createCasingBlock("inert_machine_casing",
             GTCEu.id("block/casings/solid/machine_casing_inert_ptfe"));
     public static final BlockEntry<Block> CASING_HSSE_STURDY = createCasingBlock("sturdy_machine_casing",
@@ -252,7 +252,7 @@ public class GTBlocks {
         builder.put(GTMaterials.Steel, CASING_STEEL_SOLID);
         builder.put(GTMaterials.StainlessSteel, CASING_STAINLESS_CLEAN);
         builder.put(GTMaterials.Titanium, CASING_TITANIUM_STABLE);
-        builder.put(GTMaterials.TungstenSteel, CASING_TUNGSTENSTEEL_ROBUST);
+        builder.put(GTMaterials.FerrotungstenAlloy, CASING_FERROTUNGSTEN_ALLOY_ROBUST);
         builder.put(GTMaterials.Polytetrafluoroethylene, CASING_PTFE_INERT);
         builder.put(GTMaterials.HSSE, CASING_HSSE_STURDY);
         // GCYM
@@ -290,8 +290,9 @@ public class GTBlocks {
             GTCEu.id("block/casings/gearbox/machine_casing_gearbox_stainless_steel"));
     public static final BlockEntry<Block> CASING_TITANIUM_GEARBOX = createCasingBlock("titanium_gearbox",
             GTCEu.id("block/casings/gearbox/machine_casing_gearbox_titanium"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_GEARBOX = createCasingBlock("tungstensteel_gearbox",
-            GTCEu.id("block/casings/gearbox/machine_casing_gearbox_tungstensteel"));
+    public static final BlockEntry<Block> CASING_FERROTUNGSTEN_ALLOY_GEARBOX = createCasingBlock(
+            "ferrotungsten_alloy_gearbox",
+            GTCEu.id("block/casings/gearbox/machine_casing_gearbox_ferrotungsten_alloy"));
 
     // Turbine Casings
     public static final BlockEntry<Block> CASING_STEEL_TURBINE = createCasingBlock("steel_turbine_casing",
@@ -300,8 +301,9 @@ public class GTBlocks {
             GTCEu.id("block/casings/mechanic/machine_casing_turbine_titanium"));
     public static final BlockEntry<Block> CASING_STAINLESS_TURBINE = createCasingBlock("stainless_steel_turbine_casing",
             GTCEu.id("block/casings/mechanic/machine_casing_turbine_stainless_steel"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_TURBINE = createCasingBlock(
-            "tungstensteel_turbine_casing", GTCEu.id("block/casings/mechanic/machine_casing_turbine_tungstensteel"));
+    public static final BlockEntry<Block> CASING_FERROTUNGSTEN_ALLOY_TURBINE = createCasingBlock(
+            "ferrotungsten_alloy_turbine_casing",
+            GTCEu.id("block/casings/mechanic/machine_casing_turbine_ferrotungsten_alloy"));
 
     // Pipe casings
     public static final BlockEntry<Block> CASING_BRONZE_PIPE = createCasingBlock("bronze_pipe_casing",
@@ -310,8 +312,9 @@ public class GTBlocks {
             GTCEu.id("block/casings/pipe/machine_casing_pipe_steel"));
     public static final BlockEntry<Block> CASING_TITANIUM_PIPE = createCasingBlock("titanium_pipe_casing",
             GTCEu.id("block/casings/pipe/machine_casing_pipe_titanium"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_PIPE = createCasingBlock("tungstensteel_pipe_casing",
-            GTCEu.id("block/casings/pipe/machine_casing_pipe_tungstensteel"));
+    public static final BlockEntry<Block> CASING_FERROTUNGSTEN_ALLOY_PIPE = createCasingBlock(
+            "ferrotungsten_alloy_pipe_casing",
+            GTCEu.id("block/casings/pipe/machine_casing_pipe_ferrotungsten_alloy"));
     public static final BlockEntry<Block> CASING_POLYTETRAFLUOROETHYLENE_PIPE = createCasingBlock("ptfe_pipe_casing",
             GTCEu.id("block/casings/pipe/machine_casing_pipe_polytetrafluoroethylene"));
     public static final BlockEntry<MinerPipeBlock> MINER_PIPE = REGISTRATE.block("miner_pipe", MinerPipeBlock::new)
@@ -415,7 +418,7 @@ public class GTBlocks {
     public static final BlockEntry<ActiveBlock> FIREBOX_BRONZE = createFireboxCasing(BoilerFireboxType.BRONZE_FIREBOX);
     public static final BlockEntry<ActiveBlock> FIREBOX_STEEL = createFireboxCasing(BoilerFireboxType.STEEL_FIREBOX);
     public static final BlockEntry<ActiveBlock> FIREBOX_TITANIUM = createFireboxCasing(BoilerFireboxType.TITANIUM_FIREBOX);
-    public static final BlockEntry<ActiveBlock> FIREBOX_TUNGSTENSTEEL = createFireboxCasing(BoilerFireboxType.TUNGSTENSTEEL_FIREBOX);
+    public static final BlockEntry<ActiveBlock> FIREBOX_FERROTUNGSTEN_ALLOY = createFireboxCasing(BoilerFireboxType.FERROTUNGSTEN_ALLOY_FIREBOX);
 
     // spotless:on
 

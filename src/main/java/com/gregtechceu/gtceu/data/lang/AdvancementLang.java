@@ -160,7 +160,7 @@ public class AdvancementLang {
          * provider.add("gtceu.advancement.extreme_voltage.52_soc_wafer.desc",
          * "Produce an SoC Wafer to make cheaper Basic and Good Circuits.");
          * provider.add("gtceu.advancement.root_iv.name", "Insane Voltage");
-         * provider.add("gtceu.advancement.root_iv.desc", "Cool down a Hot Tungstensteel Ingot.");
+         * provider.add("gtceu.advancement.root_iv.desc", "Cool down a Hot Ferrotungsten Alloy Ingot.");
          * provider.add("gtceu.advancement.insane_voltage.53_plutonium_239.name", "Plutonium 239");
          * provider.add("gtceu.advancement.insane_voltage.53_plutonium_239.desc",
          * "Obtain Plutonium 239 for a source of radon.");
@@ -170,9 +170,9 @@ public class AdvancementLang {
          * provider.add("gtceu.advancement.insane_voltage.55_qbit_cpu_wafer.desc", "Produce a QBit CPU Wafer.");
          * provider.add("gtceu.advancement.insane_voltage.56_quantum_processor.name", "Quantum Processor");
          * provider.add("gtceu.advancement.insane_voltage.56_quantum_processor.desc", "Get Quantum Processors.");
-         * provider.add("gtceu.advancement.insane_voltage.57_tungstensteel_coil.name",
+         * provider.add("gtceu.advancement.insane_voltage.57_ferrotungsten_alloy_coil.name",
          * "Upgrade your Coils to Level IV");
-         * provider.add("gtceu.advancement.insane_voltage.57_tungstensteel_coil.desc",
+         * provider.add("gtceu.advancement.insane_voltage.57_ferrotungsten_alloy_coil.desc",
          * "Craft an RTM Alloy Heating Coil.");
          * provider.add("gtceu.advancement.insane_voltage.58_hss_g_coil.name", "Upgrade your Coils to Level V");
          * provider.add("gtceu.advancement.insane_voltage.58_hss_g_coil.desc", "Craft an HSS-G Heating Coil.");

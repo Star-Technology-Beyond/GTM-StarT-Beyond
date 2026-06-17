@@ -103,7 +103,7 @@ public class LargeMinerMachine extends WorkableElectricMultiblockMachine
     public static Material getMaterial(int tier) {
         if (tier == GTValues.EV) return GTMaterials.Steel;
         if (tier == GTValues.IV) return GTMaterials.Titanium;
-        if (tier == GTValues.LuV) return GTMaterials.TungstenSteel;
+        if (tier == GTValues.LuV) return GTMaterials.FerrotungstenAlloy;
         return GTMaterials.Steel;
     }
 

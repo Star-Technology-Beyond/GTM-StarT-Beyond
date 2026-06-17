@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "gtceu:tungstensteel_gearbox"
+          "name": "gtceu:ferrotungsten_alloy_gearbox"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "gtceu:blocks/tungstensteel_gearbox"
+  "random_sequence": "gtceu:blocks/ferrotungsten_alloy_gearbox"
 }

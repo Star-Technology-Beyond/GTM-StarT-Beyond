@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/block",
   "loader": "gtceu:machine",
-  "machine": "gtceu:tungsten_steel_drum",
+  "machine": "gtceu:ferrotungsten_alloy_drum",
   "variants": {
     "": {
       "model": "gtceu:block/machine/template/drum/metal_drum"

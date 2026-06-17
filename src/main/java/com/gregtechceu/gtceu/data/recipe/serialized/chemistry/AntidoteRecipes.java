@@ -110,7 +110,7 @@ public class AntidoteRecipes {
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder("calcium_ferrocyanide")
                 .inputFluids(HydrogenCyanide.getFluid(6000))
-                .inputFluids(Iron2Chloride.getFluid(1000))
+                .inputFluids(IronIIChloride.getFluid(1000))
                 .inputFluids(Water.getFluid(7000))
                 .inputItems(dust, CalciumHydroxide, 10)
                 .outputItems(dust, CalciumFerrocyanide, 15)
@@ -128,7 +128,7 @@ public class AntidoteRecipes {
 
         CHEMICAL_RECIPES.recipeBuilder("prussian_blue")
                 .inputItems(dust, PotassiumFerrocyanide, 51)
-                .inputFluids(Iron3Chloride.getFluid(4000))
+                .inputFluids(IronIIIChloride.getFluid(4000))
                 .outputItems(dust, PrussianBlue, 1)
                 .outputItems(dust, RockSalt, 24)
                 .duration(500).EUt(VA[HV]).save(provider);
@@ -139,7 +139,7 @@ public class AntidoteRecipes {
                 .circuitMeta(2)
                 .inputFluids(Ethylene.getFluid(1000))
                 .inputFluids(Chlorine.getFluid(2000))
-                .notConsumableFluid(Iron3Chloride.getFluid(100))
+                .notConsumableFluid(IronIIIChloride.getFluid(100))
                 .outputFluids(Dichloroethane.getFluid(1000))
                 .duration(100).EUt(VA[MV]).save(provider);
 

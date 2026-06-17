@@ -39,10 +39,10 @@ public record BoilerFireboxType(String name, ResourceLocation bottom, ResourceLo
             GTCEu.id("block/casings/solid/machine_casing_stable_titanium"),
             GTCEu.id("block/casings/solid/machine_casing_stable_titanium"),
             GTCEu.id("block/casings/firebox/machine_casing_firebox_titanium"));
-    public static BoilerFireboxType TUNGSTENSTEEL_FIREBOX = new BoilerFireboxType("tungstensteel_firebox",
-            GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"),
-            GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"),
-            GTCEu.id("block/casings/firebox/machine_casing_firebox_tungstensteel"));
+    public static BoilerFireboxType FERROTUNGSTEN_ALLOY_FIREBOX = new BoilerFireboxType("ferrotungsten_alloy_firebox",
+            GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy"),
+            GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy"),
+            GTCEu.id("block/casings/firebox/machine_casing_firebox_ferrotungsten_alloy"));
 
     @NotNull
     @Override

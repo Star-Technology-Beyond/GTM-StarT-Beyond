@@ -146,7 +146,7 @@ public class SeparationRecipes {
                 .chancedOutput(dust, Quicklime, 4950, 0)
                 .chancedOutput(dust, Potash, 1600, 0)
                 .chancedOutput(dust, Magnesia, 1500, 0)
-                .chancedOutput(dust, PhosphorusPentoxide, 60, 0)
+                .chancedOutput(dust, PhosphorusVOxide, 60, 0)
                 .chancedOutput(dust, SodaAsh, 600, 0)
                 .chancedOutput(dust, Hematite, 275, 0)
                 .save(provider);
