@@ -596,6 +596,7 @@ public class OrganicChemistryMaterials {
                 .flags(DISABLE_DECOMPOSITION)
                 .langValue("Acetic (Ethanoic) Anhydride")
                 .components(Carbon, 4, Hydrogen, 6, Oxygen, 3)
+                .langValue("Acetic (Ethanoic) Anhydride")
                 .buildAndRegister()
                 .setFormula("(CH3CO)2O", true);
 
