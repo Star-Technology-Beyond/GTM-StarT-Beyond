@@ -134,7 +134,7 @@ public class SecondDegreeMaterials {
                 .buildAndRegister();
 
         TungstenSteel = new Material.Builder(GTCEu.id("tungsten_steel"))
-                .langValue("Tungstensteel")
+                .langValue("Ferrotungsten Alloy")
                 .ingot(4).fluid()
                 .colors(0x687ece, 0x03192f).iconSet(METALLIC)
                 .appendFlags(EXT2_METAL, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_DENSE, GENERATE_FRAME,
@@ -356,12 +356,14 @@ public class SecondDegreeMaterials {
                 .liquid(new FluidBuilder().attribute(FluidAttributes.ACID))
                 .color(0x3EB640)
                 .components(Nickel, 1, Oxygen, 1, SulfuricAcid, 1)
+                .langValue("Acidic Nickel Solution")
                 .buildAndRegister();
 
         SulfuricCopperSolution = new Material.Builder(GTCEu.id("sulfuric_copper_solution"))
                 .liquid(new FluidBuilder().attribute(FluidAttributes.ACID))
                 .color(0x48A5C0)
                 .components(Copper, 1, Oxygen, 1, SulfuricAcid, 1)
+                .langValue("Acidic Copper Sulfate Solution")
                 .buildAndRegister();
 
         LeadZincSolution = new Material.Builder(GTCEu.id("lead_zinc_solution"))

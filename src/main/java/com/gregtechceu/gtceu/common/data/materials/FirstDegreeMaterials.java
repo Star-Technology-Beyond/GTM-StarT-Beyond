@@ -543,6 +543,7 @@ public class FirstDegreeMaterials {
                 .colors(0xE6E6E6, 0xe6e1cf).iconSet(FINE)
                 .flags(NO_SMASHING, NO_SMELTING, FLAMMABLE)
                 .components(Potassium, 1, Nitrogen, 1, Oxygen, 3)
+                .langValue("Saltpeter (Potassium Nitrate)")
                 .buildAndRegister();
 
         Sapphire = new Material.Builder(GTCEu.id("sapphire"))
@@ -864,6 +865,7 @@ public class FirstDegreeMaterials {
                 .dust(1)
                 .colors(0xffffff, 0xDCDCFF)
                 .components(Sodium, 2, Carbon, 1, Oxygen, 3)
+                .langValue("Soda Ash (Sodium Carbonate)")
                 .buildAndRegister();
 
         IndiumGalliumPhosphide = new Material.Builder(GTCEu.id("indium_gallium_phosphide"))
@@ -907,6 +909,7 @@ public class FirstDegreeMaterials {
                 .colors(0xe89188, 0x220202)
                 .flags(DECOMPOSITION_BY_CENTRIFUGING)
                 .components(Phosphorus, 4, Oxygen, 10)
+                .langValue("Phosphorus(V) Oxide")
                 .buildAndRegister();
 
         Quicklime = new Material.Builder(GTCEu.id("quicklime"))
@@ -914,6 +917,7 @@ public class FirstDegreeMaterials {
                 .colors(0xecfff3, 0x7d8e83)
                 .components(Calcium, 1, Oxygen, 1)
                 .hazard(HazardProperty.HazardTrigger.SKIN_CONTACT, GTMedicalConditions.CHEMICAL_BURNS)
+                .langValue("Quicklime (Calcium Oxide)")
                 .buildAndRegister();
 
         SodiumBisulfate = new Material.Builder(GTCEu.id("sodium_bisulfate"))
@@ -985,12 +989,14 @@ public class FirstDegreeMaterials {
                 .dust(1)
                 .colors(0x8df7cf, 0x57696e)
                 .components(Copper, 1, Oxygen, 1)
+                .langValue("Copper(II) Oxide")
                 .buildAndRegister();
 
         CobaltOxide = new Material.Builder(GTCEu.id("cobalt_oxide"))
                 .dust(1)
                 .colors(0x3cb099, 0x3b5c66)
                 .components(Cobalt, 1, Oxygen, 1)
+                .langValue("Cobalt(II) Oxide")
                 .buildAndRegister();
 
         ArsenicTrioxide = new Material.Builder(GTCEu.id("arsenic_trioxide"))
@@ -1219,10 +1225,11 @@ public class FirstDegreeMaterials {
                 .color(0x7DC8F0)
                 .components(Nitrogen, 1, Oxygen, 1)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.POISON, 1)
+                .langValue("Nitrogen Monoxide")
                 .buildAndRegister();
 
         Iron3Chloride = new Material.Builder(GTCEu.id("iron_iii_chloride"))
-                .langValue("Iron III Chloride")
+                .langValue("Iron(III) Chloride")
                 .liquid()
                 .color(0x060B0B)
                 .flags(DECOMPOSITION_BY_ELECTROLYZING)
@@ -1230,7 +1237,7 @@ public class FirstDegreeMaterials {
                 .buildAndRegister();
 
         Iron2Chloride = new Material.Builder(GTCEu.id("iron_ii_chloride"))
-                .langValue("Iron II Chloride")
+                .langValue("Iron(II) Chloride")
                 .liquid()
                 .color(0xe8e0be)
                 .flags(DECOMPOSITION_BY_ELECTROLYZING)
@@ -1264,6 +1271,7 @@ public class FirstDegreeMaterials {
                 .color(0x7DC8FF)
                 .components(Nitrogen, 2, Oxygen, 1)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.POISON, .5f)
+                .langValue("Dinitrogen Monoxide")
                 .buildAndRegister();
 
         EnderPearl = new Material.Builder(GTCEu.id("ender_pearl"))
@@ -1316,6 +1324,7 @@ public class FirstDegreeMaterials {
                 .color(0x64FCB4)
                 .flags(DECOMPOSITION_BY_CENTRIFUGING)
                 .components(Sodium, 1, Potassium, 1)
+                .langValue("NaK Alloy")
                 .buildAndRegister();
 
         SamariumMagnetic = new Material.Builder(GTCEu.id("magnetic_samarium"))
@@ -1373,6 +1382,7 @@ public class FirstDegreeMaterials {
                 .blast(b -> b.temp(4400, GasTier.MID)
                         .blastStats(VA[EV], 1000)
                         .vacuumStats(VA[EV], 200))
+                .langValue("Uranium-Platinum Alloy")
                 .buildAndRegister()
                 .setFormula("UPt3", true);
 
@@ -1618,6 +1628,7 @@ public class FirstDegreeMaterials {
                 .color(0xa6a6a6)
                 .components(Carbon, 1, Hydrogen, 2, Oxygen, 2)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.CHEMICAL_BURNS)
+                .langValue("Formic Acid (Methanoic Acid)")
                 .buildAndRegister();
 
         PotassiumSulfate = new Material.Builder(GTCEu.id("potassium_sulfate"))
@@ -1641,6 +1652,7 @@ public class FirstDegreeMaterials {
                 .flags(DECOMPOSITION_BY_ELECTROLYZING)
                 .components(Carbon, 1, Hydrogen, 2, Oxygen, 1)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.POISON)
+                .langValue("Formaldehyde (Methanal)")
                 .buildAndRegister();
 
         Glycolonitrile = new Material.Builder(GTCEu.id("glycolonitrile"))

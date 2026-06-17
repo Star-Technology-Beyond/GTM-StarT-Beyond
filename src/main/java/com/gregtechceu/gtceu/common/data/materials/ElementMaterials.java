@@ -360,6 +360,7 @@ public class ElementMaterials {
                         .customStill()
                         .translation("gtceu.fluid.generic"))
                 .element(GTElements.He3)
+                .langValue("Helium-3")
                 .buildAndRegister();
 
         Indium = new Material.Builder(GTCEu.id("indium"))
@@ -638,6 +639,7 @@ public class ElementMaterials {
                 .colors(0xba2727, 0x222730).iconSet(RADIOACTIVE)
                 .element(GTElements.Pu239)
                 .radioactiveHazard(1.5f)
+                .langValue("Plutonium-239")
                 .buildAndRegister();
 
         Plutonium241 = new Material.Builder(GTCEu.id("plutonium_241"))
@@ -647,6 +649,7 @@ public class ElementMaterials {
                 .appendFlags(EXT_METAL)
                 .element(GTElements.Pu241)
                 .radioactiveHazard(1.5f)
+                .langValue("Plutonium-241")
                 .buildAndRegister();
 
         Potassium = new Material.Builder(GTCEu.id("potassium"))
@@ -901,6 +904,7 @@ public class ElementMaterials {
                 .appendFlags(EXT_METAL)
                 .element(GTElements.U238)
                 .radioactiveHazard(1)
+                .langValue("Uranium-238")
                 .buildAndRegister();
 
         Uranium235 = new Material.Builder(GTCEu.id("uranium_235"))
@@ -910,6 +914,7 @@ public class ElementMaterials {
                 .appendFlags(EXT_METAL)
                 .element(GTElements.U235)
                 .radioactiveHazard(1)
+                .langValue("Uranium-235")
                 .buildAndRegister();
 
         Vanadium = new Material.Builder(GTCEu.id("vanadium"))

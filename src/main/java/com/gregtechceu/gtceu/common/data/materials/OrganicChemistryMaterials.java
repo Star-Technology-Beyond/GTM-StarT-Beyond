@@ -156,6 +156,7 @@ public class OrganicChemistryMaterials {
                         ToolProperty.Builder.of(1.0F, 1.0F, 512, 1, GTToolType.SOFT_MALLET, GTToolType.PLUNGER).build())
                 .components(Carbon, 2, Fluorine, 4)
                 .fluidPipeProperties(600, 100, true, true, false, false)
+                .langValue("Tetrafluoroethylene (1,1,2,2-tetrafluoroethene)")
                 .buildAndRegister();
 
         Sugar = new Material.Builder(GTCEu.id("sugar"))
@@ -189,6 +190,7 @@ public class OrganicChemistryMaterials {
                 .color(0x892CA0)
                 .components(Carbon, 1, Hydrogen, 1, Chlorine, 3)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.POISON)
+                .langValue("Chloroform (Trichloromethane)")
                 .buildAndRegister();
 
         Cumene = new Material.Builder(GTCEu.id("cumene"))
@@ -196,6 +198,7 @@ public class OrganicChemistryMaterials {
                 .color(0x552200)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 9, Hydrogen, 12)
+                .langValue("Cumene (Propan-2-ylbenzene)")
                 .buildAndRegister();
 
         Tetrafluoroethylene = new Material.Builder(GTCEu.id("tetrafluoroethylene"))
@@ -216,6 +219,7 @@ public class OrganicChemistryMaterials {
                 .fluid()
                 .color(0x87DEAA)
                 .components(Carbon, 2, Methane, 1, HydrochloricAcid, 1)
+                .langValue("Allyl Chloride (3-chloroprop-1-ene)")
                 .buildAndRegister()
                 .setFormula("C3H5Cl", true);
 
@@ -223,6 +227,7 @@ public class OrganicChemistryMaterials {
                 .fluid()
                 .color(0x141414)
                 .components(Carbon, 5, Hydrogen, 8)
+                .langValue("Isoprene (2-methylbuta-1,3-diene)")
                 .buildAndRegister();
 
         Propane = new Material.Builder(GTCEu.id("propane"))
@@ -270,6 +275,7 @@ public class OrganicChemistryMaterials {
                 .color(0xE1B380)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 4, Hydrogen, 6, Oxygen, 2)
+                .langValue("Vinyl Acetate (Ethenyl Ethanoate)")
                 .buildAndRegister();
 
         MethylAcetate = new Material.Builder(GTCEu.id("methyl_acetate"))
@@ -327,6 +333,7 @@ public class OrganicChemistryMaterials {
                 .color(0xD2C8BE)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 8, Hydrogen, 8)
+                .langValue("Styrene (ethenylbenzene)")
                 .buildAndRegister();
 
         Butadiene = new Material.Builder(GTCEu.id("butadiene"))
@@ -348,6 +355,7 @@ public class OrganicChemistryMaterials {
                 .color(0xC8B4A0)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 2, Hydrogen, 4, Oxygen, 2)
+                .langValue("Acetic Acid (Ethanoic Acid)")
                 .buildAndRegister();
 
         Phenol = new Material.Builder(GTCEu.id("phenol"))
@@ -363,6 +371,7 @@ public class OrganicChemistryMaterials {
                 .color(0xD4AA00)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 15, Hydrogen, 16, Oxygen, 2)
+                .langValue("Bisphenol A (4,4′-(propane-2,2-diyl)diphenol)")
                 .buildAndRegister();
 
         VinylChloride = new Material.Builder(GTCEu.id("vinyl_chloride"))
@@ -371,6 +380,7 @@ public class OrganicChemistryMaterials {
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 2, Hydrogen, 3, Chlorine, 1)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.CARCINOGEN)
+                .langValue("Vinyl Chloride (Chloroethene)")
                 .buildAndRegister();
 
         Ethylene = new Material.Builder(GTCEu.id("ethylene"))
@@ -393,12 +403,14 @@ public class OrganicChemistryMaterials {
                 .color(0xAFAFAF)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 3, Hydrogen, 6, Oxygen, 1)
+                .langValue("Acetone (Propan-2-one)")
                 .buildAndRegister();
 
         Glycerol = new Material.Builder(GTCEu.id("glycerol"))
                 .fluid()
                 .color(0x87DE87)
                 .components(Carbon, 3, Hydrogen, 8, Oxygen, 3)
+                .langValue("Glycerol (Propane-1,2,3-triol)")
                 .buildAndRegister();
 
         Methanol = new Material.Builder(GTCEu.id("methanol"))
@@ -419,6 +431,7 @@ public class OrganicChemistryMaterials {
                 .liquid(new FluidBuilder().customStill())
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 7, Hydrogen, 8)
+                .langValue("Toluene (Methylbenzene)")
                 .buildAndRegister();
 
         DiphenylIsophtalate = new Material.Builder(GTCEu.id("diphenyl_isophthalate"))
@@ -433,6 +446,7 @@ public class OrganicChemistryMaterials {
                 .color(0xD1D1D1)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 8, Hydrogen, 6, Oxygen, 4)
+                .langValue("Phthalic Acid (Benzene-1,2-dicarboxylic acid)")
                 .buildAndRegister()
                 .setFormula("C6H4(CO2H)2", true);
 
@@ -487,6 +501,7 @@ public class OrganicChemistryMaterials {
                 .flags(DISABLE_DECOMPOSITION)
                 .color(0xB15C06)
                 .components(Carbon, 6, Hydrogen, 14, Oxygen, 1)
+                .langValue("2-ethoxy-2-methylpropane")
                 .buildAndRegister();
 
         Ethylbenzene = new Material.Builder(GTCEu.id("ethylbenzene"))
@@ -548,6 +563,7 @@ public class OrganicChemistryMaterials {
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 4, Hydrogen, 8, Oxygen, 1)
                 .hazard(HazardProperty.HazardTrigger.INHALATION, GTMedicalConditions.NAUSEA, false)
+                .langValue("Butyraldehyde (Butanal)")
                 .buildAndRegister();
 
         PolyvinylButyral = new Material.Builder(GTCEu.id("polyvinyl_butyral"))
@@ -578,6 +594,7 @@ public class OrganicChemistryMaterials {
                 .fluid()
                 .color(0xE0D182)
                 .flags(DISABLE_DECOMPOSITION)
+                .langValue("Acetic Anhydride (Ethanoic Anhydride)")
                 .components(Carbon, 4, Hydrogen, 6, Oxygen, 3)
                 .buildAndRegister()
                 .setFormula("(CH3CO)2O", true);
@@ -595,6 +612,7 @@ public class OrganicChemistryMaterials {
                 .color(0xF2EDCB)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 8, Hydrogen, 9, Nitrogen, 1, Oxygen, 2)
+                .langValue("Paracetamol (N-(4-hydroxyphenyl)acetamide)")
                 .buildAndRegister();
 
         AmmoniumFormate = new Material.Builder(GTCEu.id("ammonium_formate"))

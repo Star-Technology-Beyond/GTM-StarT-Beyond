@@ -40,7 +40,9 @@ public class UnknownCompositionMaterials {
 
         BioDiesel = new Material.Builder(GTCEu.id("bio_diesel"))
                 .fluid().color(0xFF8000)
-                .flags(FLAMMABLE, EXPLOSIVE).buildAndRegister();
+                .flags(FLAMMABLE, EXPLOSIVE)
+                .langValue("Biodiesel")
+                .buildAndRegister();
 
         FermentedBiomass = new Material.Builder(GTCEu.id("fermented_biomass"))
                 .liquid(new FluidBuilder().temperature(300))
