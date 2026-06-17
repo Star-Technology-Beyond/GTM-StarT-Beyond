@@ -536,7 +536,7 @@ public class MixerRecipes {
                 .inputItems(dust, Uranium238)
                 .inputItems(dust, Platinum, 3)
                 .circuitMeta(4)
-                .outputItems(dust, UraniumTriplatinum, 4)
+                .outputItems(dust, UraniumPlatinumAlloy, 4)
                 .save(provider);
 
         MIXER_RECIPES.recipeBuilder("samarium_iron_arsenic_oxide").duration(100).EUt(VA[IV])

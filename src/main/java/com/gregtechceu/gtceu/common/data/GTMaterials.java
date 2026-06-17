@@ -624,7 +624,7 @@ public class GTMaterials {
     public static Material ManganesePhosphide;
     public static Material MagnesiumDiboride;
     public static Material MercuryBariumCalciumCuprate;
-    public static Material UraniumTriplatinum;
+    public static Material UraniumPlatinumAlloy;
     public static Material SamariumIronArsenicOxide;
     public static Material IndiumTinBariumTitaniumCuprate;
     public static Material UraniumRhodiumDinaquadide;

@@ -935,7 +935,7 @@ public class ComponentRecipes {
                 "XGX", "WPW", 'W', new MaterialEntry(wireGtQuadruple, MercuryBariumCalciumCuprate), 'P',
                 new MaterialEntry(plate, StainlessSteel), 'G', QUANTUM_EYE.asStack(), 'X', CustomTags.HV_CIRCUITS);
         VanillaRecipeHelper.addShapedRecipe(provider, true, "field_generator_ev", FIELD_GENERATOR_EV.asStack(), "WPW",
-                "XGX", "WPW", 'W', new MaterialEntry(wireGtQuadruple, UraniumTriplatinum), 'P',
+                "XGX", "WPW", 'W', new MaterialEntry(wireGtQuadruple, UraniumPlatinumAlloy), 'P',
                 new MaterialEntry(plateDouble, Titanium), 'G', new MaterialEntry(gem, NetherStar), 'X',
                 CustomTags.EV_CIRCUITS);
         VanillaRecipeHelper.addShapedRecipe(provider, true, "field_generator_iv", FIELD_GENERATOR_IV.asStack(), "WPW",
@@ -971,7 +971,7 @@ public class ComponentRecipes {
                 .inputItems(gem, NetherStar)
                 .inputItems(plateDouble, Titanium, 2)
                 .inputItems(CustomTags.EV_CIRCUITS, 2)
-                .inputItems(wireGtQuadruple, UraniumTriplatinum, 4)
+                .inputItems(wireGtQuadruple, UraniumPlatinumAlloy, 4)
                 .outputItems(FIELD_GENERATOR_EV)
                 .duration(100).EUt(VA[LV]).save(provider);
 

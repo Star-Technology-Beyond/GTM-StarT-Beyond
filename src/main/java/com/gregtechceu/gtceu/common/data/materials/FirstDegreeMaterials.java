@@ -1372,7 +1372,7 @@ public class FirstDegreeMaterials {
                         .vacuumStats(VA[HV]))
                 .buildAndRegister();
 
-        UraniumTriplatinum = new Material.Builder(GTCEu.id("uranium_platinum_alloy"))
+        UraniumPlatinumAlloy = new Material.Builder(GTCEu.id("uranium_platinum_alloy"))
                 .ingot()
                 .liquid(new FluidBuilder().temperature(1882))
                 .colors(0x457045, 0x66ff00).iconSet(RADIOACTIVE)
