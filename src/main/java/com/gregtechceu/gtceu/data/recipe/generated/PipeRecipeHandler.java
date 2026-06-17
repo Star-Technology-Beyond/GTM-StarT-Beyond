@@ -48,7 +48,7 @@ public final class PipeRecipeHandler {
 
         addDuctRecipes(provider, Steel, 2);
         addDuctRecipes(provider, StainlessSteel, 4);
-        addDuctRecipes(provider, FerrotungstenAlloy, 8);
+        addDuctRecipes(provider, Tungstensteel, 8);
     }
 
     private static void processRestrictivePipe(@NotNull Consumer<FinishedRecipe> provider,

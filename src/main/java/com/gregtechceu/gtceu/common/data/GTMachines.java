@@ -582,8 +582,8 @@ public class GTMachines {
     public static MachineDefinition STAINLESS_STEEL_CRATE = registerCrate(GTMaterials.StainlessSteel, 108,
             "Stainless Steel Crate");
     public static MachineDefinition TITANIUM_CRATE = registerCrate(GTMaterials.Titanium, 126, "Titanium Crate");
-    public static MachineDefinition FERROTUNGSTEN_ALLOY_CRATE = registerCrate(GTMaterials.FerrotungstenAlloy, 144,
-            "Ferrotungsten Alloy Crate");
+    public static MachineDefinition TUNGSTENSTEEL_CRATE = registerCrate(GTMaterials.Tungstensteel, 144,
+            "Tungstensteel Crate");
 
     public static MachineDefinition WOODEN_DRUM = registerDrum(GTMaterials.Wood, (16 * FluidType.BUCKET_VOLUME),
             "Wooden Barrel");
@@ -599,8 +599,8 @@ public class GTMachines {
             "Gold Drum");
     public static MachineDefinition TITANIUM_DRUM = registerDrum(GTMaterials.Titanium,
             (512 * FluidType.BUCKET_VOLUME), "Titanium Drum");
-    public static MachineDefinition FERROTUNGSTEN_ALLOY_DRUM = registerDrum(GTMaterials.FerrotungstenAlloy,
-            (1024 * FluidType.BUCKET_VOLUME), "Ferrotungsten Alloy Drum");
+    public static MachineDefinition TUNGSTENSTEEL_DRUM = registerDrum(GTMaterials.Tungstensteel,
+            (1024 * FluidType.BUCKET_VOLUME), "Tungstensteel Drum");
 
     //////////////////////////////////////
     // ********** Part **********//

@@ -56,7 +56,7 @@ public class ItemLang {
     }
 
     private static void initItemNames(RegistrateLangProvider provider) {
-        replace(provider, "item.gtceu.ferrotungsten_alloy_fluid_cell", "%s Ferrotungsten Alloy Cell");
+        replace(provider, "item.gtceu.tungstensteel_fluid_cell", "%s Tungstensteel Cell");
     }
 
     private static void initItemTooltips(RegistrateLangProvider provider) {

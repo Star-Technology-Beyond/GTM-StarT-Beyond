@@ -505,7 +505,7 @@ public class ForgeCommonEventListener {
     @SubscribeEvent
     public static void remapIds(MissingMappingsEvent event) {
         event.getMappings(Registries.BLOCK, GTCEu.MOD_ID).forEach(mapping -> {
-            if (mapping.getKey().equals(GTCEu.id("ferrotungsten_alloy_coil_block"))) {
+            if (mapping.getKey().equals(GTCEu.id("tungstensteel_coil_block"))) {
                 mapping.remap(GTBlocks.COIL_RTMALLOY.get());
             }
             if (mapping.getKey().equals(GTCEu.id("steam_miner"))) {
@@ -513,14 +513,14 @@ public class ForgeCommonEventListener {
             }
         });
         event.getMappings(Registries.ITEM, GTCEu.MOD_ID).forEach(mapping -> {
-            if (mapping.getKey().equals(GTCEu.id("ferrotungsten_alloy_coil_block"))) {
+            if (mapping.getKey().equals(GTCEu.id("tungstensteel_coil_block"))) {
                 mapping.remap(GTBlocks.COIL_RTMALLOY.get().asItem());
             }
             if (mapping.getKey().equals(GTCEu.id("steam_miner"))) {
                 mapping.remap(GTMachines.STEAM_MINER.first().getItem());
             }
-            if (mapping.getKey().equals(GTCEu.id("ferrotungsten_alloy_fluid_cell"))) {
-                mapping.remap(GTItems.FLUID_CELL_LARGE_TUNGSTEN_STEEL.get().asItem());
+            if (mapping.getKey().equals(GTCEu.id("tungstensteel_fluid_cell"))) {
+                mapping.remap(GTItems.FLUID_CELL_LARGE_TUNGSTENSTEEL.get().asItem());
             }
             if (mapping.getKey().equals(GTCEu.id("avanced_nanomuscle_chestplate"))) {
                 mapping.remap(GTItems.NANO_CHESTPLATE_ADVANCED.get());

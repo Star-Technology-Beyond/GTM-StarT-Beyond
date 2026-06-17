@@ -129,7 +129,7 @@ public class FluidDrillMachine extends WorkableElectricMultiblockMachine impleme
         if (tier == GTValues.HV)
             return GTBlocks.CASING_TITANIUM_STABLE.get();
         if (tier == GTValues.EV)
-            return GTBlocks.CASING_FERROTUNGSTEN_ALLOY_ROBUST.get();
+            return GTBlocks.CASING_TUNGSTENSTEEL_ROBUST.get();
         return GTBlocks.CASING_STEEL_SOLID.get();
     }
 
@@ -140,7 +140,7 @@ public class FluidDrillMachine extends WorkableElectricMultiblockMachine impleme
         if (tier == GTValues.HV)
             return GTMaterialBlocks.MATERIAL_BLOCKS.get(TagPrefix.frameGt, GTMaterials.Titanium).get();
         if (tier == GTValues.EV)
-            return GTMaterialBlocks.MATERIAL_BLOCKS.get(TagPrefix.frameGt, GTMaterials.FerrotungstenAlloy).get();
+            return GTMaterialBlocks.MATERIAL_BLOCKS.get(TagPrefix.frameGt, GTMaterials.Tungstensteel).get();
         return GTMaterialBlocks.MATERIAL_BLOCKS.get(TagPrefix.frameGt, GTMaterials.Steel).get();
     }
 
@@ -150,7 +150,7 @@ public class FluidDrillMachine extends WorkableElectricMultiblockMachine impleme
         if (tier == GTValues.HV)
             return GTCEu.id("block/casings/solid/machine_casing_stable_titanium");
         if (tier == GTValues.EV)
-            return GTCEu.id("block/casings/solid/machine_casing_robust_ferrotungsten_alloy");
+            return GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel");
         return GTCEu.id("block/casings/solid/machine_casing_solid_steel");
     }
 }

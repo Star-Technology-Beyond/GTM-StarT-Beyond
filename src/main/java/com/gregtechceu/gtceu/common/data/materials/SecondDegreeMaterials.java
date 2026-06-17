@@ -133,8 +133,8 @@ public class SecondDegreeMaterials {
                 .blast(1500, GasTier.LOW)
                 .buildAndRegister();
 
-        FerrotungstenAlloy = new Material.Builder(GTCEu.id("ferrotungsten_alloy"))
-                .langValue("Ferrotungsten Alloy")
+        Tungstensteel = new Material.Builder(GTCEu.id("tungstensteel"))
+                .langValue("Tungstensteel")
                 .ingot(4).fluid()
                 .colors(0x687ece, 0x03192f).iconSet(METALLIC)
                 .appendFlags(EXT2_METAL, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_DENSE, GENERATE_FRAME,

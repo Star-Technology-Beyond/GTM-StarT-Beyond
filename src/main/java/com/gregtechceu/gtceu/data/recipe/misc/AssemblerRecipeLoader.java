@@ -50,12 +50,12 @@ public class AssemblerRecipeLoader {
                 .outputItems(CASING_TITANIUM_GEARBOX.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).EUt(16).save(provider);
 
-        ASSEMBLER_RECIPES.recipeBuilder("ferrotungsten_alloy_gearbox_casing")
-                .inputItems(plate, FerrotungstenAlloy, 4)
-                .inputItems(gear, FerrotungstenAlloy, 2)
-                .inputItems(frameGt, FerrotungstenAlloy)
+        ASSEMBLER_RECIPES.recipeBuilder("tungstensteel_gearbox_casing")
+                .inputItems(plate, Tungstensteel, 4)
+                .inputItems(gear, Tungstensteel, 2)
+                .inputItems(frameGt, Tungstensteel)
                 .circuitMeta(4)
-                .outputItems(CASING_FERROTUNGSTEN_ALLOY_GEARBOX.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
+                .outputItems(CASING_TUNGSTENSTEEL_GEARBOX.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).EUt(16).save(provider);
 
         // Other
@@ -66,10 +66,10 @@ public class AssemblerRecipeLoader {
                 .outputItems(CASING_ENGINE_INTAKE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).EUt(16).save(provider);
 
-        ASSEMBLER_RECIPES.recipeBuilder("stable_ferrotungsten_alloy_casing")
-                .inputItems(rotor, FerrotungstenAlloy, 2)
-                .inputItems(pipeNormalFluid, FerrotungstenAlloy, 4)
-                .inputItems(CASING_FERROTUNGSTEN_ALLOY_ROBUST.asStack())
+        ASSEMBLER_RECIPES.recipeBuilder("stable_tungstensteel_casing")
+                .inputItems(rotor, Tungstensteel, 2)
+                .inputItems(pipeNormalFluid, Tungstensteel, 4)
+                .inputItems(CASING_TUNGSTENSTEEL_ROBUST.asStack())
                 .outputItems(CASING_EXTREME_ENGINE_INTAKE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).EUt(16).save(provider);
 

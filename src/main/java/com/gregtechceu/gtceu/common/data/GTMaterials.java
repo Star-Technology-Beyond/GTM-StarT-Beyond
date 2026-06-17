@@ -84,7 +84,7 @@ public class GTMaterials {
                 Aluminium,
                 StainlessSteel,
                 Titanium,
-                FerrotungstenAlloy,
+                Tungstensteel,
                 RhodiumPlatedPalladium,
                 NaquadahAlloy,
                 Darmstadtium,
@@ -904,7 +904,7 @@ public class GTMaterials {
     public static Material Apatite;
     public static Material BlackSteel;
     public static Material DamascusSteel;
-    public static Material FerrotungstenAlloy;
+    public static Material Tungstensteel;
     public static Material CobaltBrass;
     public static Material TricalciumPhosphate;
     public static Material GarnetRed;

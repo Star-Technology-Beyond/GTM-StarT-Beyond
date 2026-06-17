@@ -51,7 +51,7 @@ public class CraftingRecipeLoader {
 
         addDuctRecipes(provider, Steel, 2);
         addDuctRecipes(provider, StainlessSteel, 4);
-        addDuctRecipes(provider, FerrotungstenAlloy, 8);
+        addDuctRecipes(provider, Tungstensteel, 8);
 
         VanillaRecipeHelper.addShapelessRecipe(provider, "programmed_circuit", PROGRAMMED_CIRCUIT.asStack(),
                 CustomTags.LV_CIRCUITS);

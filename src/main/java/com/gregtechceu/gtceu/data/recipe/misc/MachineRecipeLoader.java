@@ -702,7 +702,7 @@ public class MachineRecipeLoader {
                 .outputItems(GTBlocks.MACHINE_CASING_EV.asStack())
                 .circuitMeta(8).duration(50)
                 .addMaterialInfo(true).save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("casing_iv").EUt(16).inputItems(plate, FerrotungstenAlloy, 8)
+        ASSEMBLER_RECIPES.recipeBuilder("casing_iv").EUt(16).inputItems(plate, Tungstensteel, 8)
                 .outputItems(GTBlocks.MACHINE_CASING_IV.asStack())
                 .circuitMeta(8).duration(50)
                 .addMaterialInfo(true).save(provider);
@@ -778,7 +778,7 @@ public class MachineRecipeLoader {
                 .outputItems(GTBlocks.COIL_HSSG.asStack()).duration(600)
                 .addMaterialInfo(true, true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("coil_naquadah").EUt(VA[LuV]).inputItems(wireGtDouble, Naquadah, 8)
-                .inputItems(foil, Osmium, 8).inputFluids(FerrotungstenAlloy, GTValues.L)
+                .inputItems(foil, Osmium, 8).inputFluids(Tungstensteel, GTValues.L)
                 .outputItems(GTBlocks.COIL_NAQUADAH.asStack()).duration(700)
                 .addMaterialInfo(true, true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("coil_trinium").EUt(VA[ZPM]).inputItems(wireGtDouble, Trinium, 8)
@@ -807,10 +807,10 @@ public class MachineRecipeLoader {
                 .outputItems(
                         GTBlocks.CASING_ALUMINIUM_FROSTPROOF.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).addMaterialInfo(true).save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("casing_tungsteensteel_robust").EUt(16).inputItems(plate, FerrotungstenAlloy, 6)
-                .inputItems(frameGt, FerrotungstenAlloy).circuitMeta(6)
+        ASSEMBLER_RECIPES.recipeBuilder("casing_tungsteensteel_robust").EUt(16).inputItems(plate, Tungstensteel, 6)
+                .inputItems(frameGt, Tungstensteel).circuitMeta(6)
                 .outputItems(
-                        GTBlocks.CASING_FERROTUNGSTEN_ALLOY_ROBUST
+                        GTBlocks.CASING_TUNGSTENSTEEL_ROBUST
                                 .asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).addMaterialInfo(true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("casing_stainless_clean").EUt(16).inputItems(plate, StainlessSteel, 6)
@@ -866,11 +866,11 @@ public class MachineRecipeLoader {
                 .duration(300)
                 .EUt(VA[HV])
                 .save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("casing_ferrotungsten_alloy_firebox")
-                .inputItems(rod, FerrotungstenAlloy, 3)
-                .inputItems(frameGt, FerrotungstenAlloy)
-                .inputItems(plate, FerrotungstenAlloy, 3)
-                .outputItems(GTBlocks.FIREBOX_FERROTUNGSTEN_ALLOY, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
+        ASSEMBLER_RECIPES.recipeBuilder("casing_tungstensteel_firebox")
+                .inputItems(rod, Tungstensteel, 3)
+                .inputItems(frameGt, Tungstensteel)
+                .inputItems(plate, Tungstensteel, 3)
+                .outputItems(GTBlocks.FIREBOX_TUNGSTENSTEEL, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
                 .addMaterialInfo(true, true)
                 .circuitMeta(11)
                 .duration(400)
@@ -903,7 +903,7 @@ public class MachineRecipeLoader {
                 .addMaterialInfo(true, true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("fusion_casing").EUt(VA[LuV]).inputItems(GTBlocks.MACHINE_CASING_LuV.asStack())
                 .inputItems(GTBlocks.SUPERCONDUCTING_COIL.asStack()).inputItems(NEUTRON_REFLECTOR)
-                .inputItems(ELECTRIC_PUMP_LuV).inputItems(plate, FerrotungstenAlloy, 6)
+                .inputItems(ELECTRIC_PUMP_LuV).inputItems(plate, Tungstensteel, 6)
                 .inputFluids(Polybenzimidazole, GTValues.L)
                 .outputItems(GTBlocks.FUSION_CASING.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .addMaterialInfo(true, true)
@@ -938,11 +938,11 @@ public class MachineRecipeLoader {
                 .outputItems(GTBlocks.CASING_TITANIUM_TURBINE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50)
                 .addMaterialInfo(true).save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("casing_ferrotungsten_alloy_turbine").EUt(16)
-                .inputItems(GTBlocks.CASING_STEEL_TURBINE.asStack()).inputItems(plate, FerrotungstenAlloy, 6)
+        ASSEMBLER_RECIPES.recipeBuilder("casing_tungstensteel_turbine").EUt(16)
+                .inputItems(GTBlocks.CASING_STEEL_TURBINE.asStack()).inputItems(plate, Tungstensteel, 6)
                 .circuitMeta(6)
                 .outputItems(
-                        GTBlocks.CASING_FERROTUNGSTEN_ALLOY_TURBINE
+                        GTBlocks.CASING_TUNGSTENSTEEL_TURBINE
                                 .asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50)
                 .addMaterialInfo(true).save(provider);
@@ -961,7 +961,7 @@ public class MachineRecipeLoader {
                 .inputItems(gear, Ruridit, 2)
                 .inputItems(plate, Steel, 4)
                 .inputItems(ROBOT_ARM_IV, 2)
-                .inputItems(frameGt, FerrotungstenAlloy)
+                .inputItems(frameGt, Tungstensteel)
                 .outputItems(GTBlocks.CASING_ASSEMBLY_LINE, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
                 .duration(650)
                 .EUt(VA[IV])
@@ -973,7 +973,7 @@ public class MachineRecipeLoader {
                 .inputItems(SENSOR_IV)
                 .inputItems(EMITTER_IV)
                 .inputItems(ELECTRIC_MOTOR_IV)
-                .inputItems(frameGt, FerrotungstenAlloy)
+                .inputItems(frameGt, Tungstensteel)
                 .outputItems(GTBlocks.CASING_ASSEMBLY_CONTROL, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
                 .duration(650)
                 .EUt(VA[IV])
@@ -1061,8 +1061,8 @@ public class MachineRecipeLoader {
         ASSEMBLER_RECIPES.recipeBuilder("titanium_crate").EUt(16).inputItems(rodLong, Titanium, 4)
                 .inputItems(plate, Titanium, 4).outputItems(TITANIUM_CRATE).duration(200).circuitMeta(1)
                 .addMaterialInfo(true).save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("ferrotungsten_alloy_crate").EUt(16).inputItems(rodLong, FerrotungstenAlloy, 4)
-                .inputItems(plate, FerrotungstenAlloy, 4).outputItems(FERROTUNGSTEN_ALLOY_CRATE).duration(200)
+        ASSEMBLER_RECIPES.recipeBuilder("tungstensteel_crate").EUt(16).inputItems(rodLong, Tungstensteel, 4)
+                .inputItems(plate, Tungstensteel, 4).outputItems(TUNGSTENSTEEL_CRATE).duration(200)
                 .circuitMeta(1)
                 .addMaterialInfo(true).save(provider);
 
@@ -1087,8 +1087,8 @@ public class MachineRecipeLoader {
         ASSEMBLER_RECIPES.recipeBuilder("titanium_drum").EUt(16).inputItems(rodLong, Titanium, 2)
                 .inputItems(plate, Titanium, 4).outputItems(TITANIUM_DRUM).duration(200).circuitMeta(2)
                 .addMaterialInfo(true).save(provider);
-        ASSEMBLER_RECIPES.recipeBuilder("ferrotungsten_alloy_drum").EUt(16).inputItems(rodLong, FerrotungstenAlloy, 2)
-                .inputItems(plate, FerrotungstenAlloy, 4).outputItems(FERROTUNGSTEN_ALLOY_DRUM).duration(200)
+        ASSEMBLER_RECIPES.recipeBuilder("tungstensteel_drum").EUt(16).inputItems(rodLong, Tungstensteel, 2)
+                .inputItems(plate, Tungstensteel, 4).outputItems(TUNGSTENSTEEL_DRUM).duration(200)
                 .circuitMeta(2)
                 .addMaterialInfo(true).save(provider);
 
@@ -1139,10 +1139,10 @@ public class MachineRecipeLoader {
                 .duration(200).EUt(256)
                 .addMaterialInfo(true).save(provider);
 
-        ASSEMBLER_RECIPES.recipeBuilder("fluid_cell_large_ferrotungsten_alloy")
-                .inputItems(plateDouble, FerrotungstenAlloy, 4)
+        ASSEMBLER_RECIPES.recipeBuilder("fluid_cell_large_tungstensteel")
+                .inputItems(plateDouble, Tungstensteel, 4)
                 .inputItems(ring, Platinum, 4)
-                .outputItems(FLUID_CELL_LARGE_TUNGSTEN_STEEL)
+                .outputItems(FLUID_CELL_LARGE_TUNGSTENSTEEL)
                 .duration(200).EUt(VA[HV])
                 .addMaterialInfo(true).save(provider);
 
@@ -1177,11 +1177,11 @@ public class MachineRecipeLoader {
                 .EUt(16)
                 .save(provider);
 
-        ASSEMBLER_RECIPES.recipeBuilder("casing_ferrotungsten_alloy_pipe")
-                .inputItems(plate, FerrotungstenAlloy, 4)
-                .inputItems(frameGt, FerrotungstenAlloy)
-                .inputItems(pipeNormalFluid, FerrotungstenAlloy, 4)
-                .outputItems(CASING_FERROTUNGSTEN_ALLOY_PIPE, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
+        ASSEMBLER_RECIPES.recipeBuilder("casing_tungstensteel_pipe")
+                .inputItems(plate, Tungstensteel, 4)
+                .inputItems(frameGt, Tungstensteel)
+                .inputItems(pipeNormalFluid, Tungstensteel, 4)
+                .outputItems(CASING_TUNGSTENSTEEL_PIPE, ConfigHolder.INSTANCE.recipes.casingsPerCraft)
                 .circuitMeta(9)
                 .duration(50)
                 .EUt(16)
@@ -1235,7 +1235,7 @@ public class MachineRecipeLoader {
                 .save(provider);
 
         ASSEMBLER_RECIPES.recipeBuilder("hermetic_casing_iv")
-                .inputItems(plate, FerrotungstenAlloy, 8)
+                .inputItems(plate, Tungstensteel, 8)
                 .inputItems(pipeLargeFluid, Titanium)
                 .outputItems(HERMETIC_CASING_IV)
                 .circuitMeta(10)
@@ -1245,7 +1245,7 @@ public class MachineRecipeLoader {
 
         ASSEMBLER_RECIPES.recipeBuilder("hermetic_casing_luv")
                 .inputItems(plate, RhodiumPlatedPalladium, 8)
-                .inputItems(pipeLargeFluid, FerrotungstenAlloy)
+                .inputItems(pipeLargeFluid, Tungstensteel)
                 .outputItems(HERMETIC_CASING_LuV)
                 .circuitMeta(10)
                 .duration(50)
@@ -1729,8 +1729,8 @@ public class MachineRecipeLoader {
                 GTMachines.GOLD_DRUM.asStack());
         VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "drum_nbt_titanium",
                 GTMachines.TITANIUM_DRUM.asStack(), GTMachines.TITANIUM_DRUM.asStack());
-        VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "drum_nbt_ferrotungsten_alloy",
-                GTMachines.FERROTUNGSTEN_ALLOY_DRUM.asStack(), GTMachines.FERROTUNGSTEN_ALLOY_DRUM.asStack());
+        VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "drum_nbt_tungstensteel",
+                GTMachines.TUNGSTENSTEEL_DRUM.asStack(), GTMachines.TUNGSTENSTEEL_DRUM.asStack());
 
         // Cells
         VanillaRecipeHelper.addShapedNBTClearingRecipe(provider, "cell_nbt_regular", FLUID_CELL.asStack(), " C", "  ",
@@ -1745,8 +1745,8 @@ public class MachineRecipeLoader {
                 FLUID_CELL_LARGE_STAINLESS_STEEL.asStack(), FLUID_CELL_LARGE_STAINLESS_STEEL.asStack());
         VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "cell_nbt_titanium",
                 FLUID_CELL_LARGE_TITANIUM.asStack(), FLUID_CELL_LARGE_TITANIUM.asStack());
-        VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "cell_nbt_ferrotungsten_alloy",
-                FLUID_CELL_LARGE_TUNGSTEN_STEEL.asStack(), FLUID_CELL_LARGE_TUNGSTEN_STEEL.asStack());
+        VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "cell_nbt_tungstensteel",
+                FLUID_CELL_LARGE_TUNGSTENSTEEL.asStack(), FLUID_CELL_LARGE_TUNGSTENSTEEL.asStack());
         VanillaRecipeHelper.addShapelessNBTClearingRecipe(provider, "cell_vial_nbt", FLUID_CELL_GLASS_VIAL.asStack(),
                 FLUID_CELL_GLASS_VIAL.asStack());
 
