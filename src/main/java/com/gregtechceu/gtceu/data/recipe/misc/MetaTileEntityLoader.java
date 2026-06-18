@@ -88,9 +88,8 @@ public class MetaTileEntityLoader {
                 "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.StainlessSteel), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.StainlessSteel));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_tungstensteel_robust",
-                GTBlocks.CASING_TUNGSTENSTEEL_ROBUST.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft),
-                "PhP",
-                "PFP", "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
+                GTBlocks.CASING_TUNGSTENSTEEL_ROBUST.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PhP", "PFP", "PwP", 'P',
+                new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Tungstensteel));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_hsse_sturdy",
                 GTBlocks.CASING_HSSE_STURDY.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PhP", "PFP", "PwP",
@@ -110,9 +109,8 @@ public class MetaTileEntityLoader {
                 "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Titanium), 'F',
                 GTBlocks.CASING_STEEL_TURBINE.asStack());
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_tungstensteel_turbine_casing",
-                GTBlocks.CASING_TUNGSTENSTEEL_TURBINE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft),
-                "PhP",
-                "PFP", "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
+                GTBlocks.CASING_TUNGSTENSTEEL_TURBINE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft),"PhP", "PFP", "PwP", 'P',
+                new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
                 GTBlocks.CASING_STEEL_TURBINE.asStack());
 
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_bronze_pipe",
@@ -126,14 +124,13 @@ public class MetaTileEntityLoader {
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Steel), 'I',
                 new MaterialEntry(TagPrefix.pipeNormalFluid, GTMaterials.Steel));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_titanium_pipe",
-                GTBlocks.CASING_TITANIUM_PIPE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PIP", "IFI",
-                "PIP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Titanium), 'F',
+                GTBlocks.CASING_TITANIUM_PIPE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PIP", "IFI", "PIP", 'P',
+                new MaterialEntry(TagPrefix.plate, GTMaterials.Titanium), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Titanium), 'I',
                 new MaterialEntry(TagPrefix.pipeNormalFluid, GTMaterials.Titanium));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_tungstensteel_pipe",
-                GTBlocks.CASING_TUNGSTENSTEEL_PIPE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PIP",
-                "IFI",
-                "PIP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
+                GTBlocks.CASING_TUNGSTENSTEEL_PIPE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PIP", "IFI", "PIP", 'P',
+                new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Tungstensteel), 'I',
                 new MaterialEntry(TagPrefix.pipeNormalFluid, GTMaterials.Tungstensteel));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_ptfe_pipe",
@@ -159,9 +156,7 @@ public class MetaTileEntityLoader {
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Titanium), 'S',
                 new MaterialEntry(TagPrefix.rod, GTMaterials.Titanium));
         VanillaRecipeHelper.addShapedRecipe(provider, false, "casing_tungstensteel_firebox",
-                GTBlocks.FIREBOX_TUNGSTENSTEEL.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PSP",
-                "SFS",
-                "PSP", 'P',
+                GTBlocks.FIREBOX_TUNGSTENSTEEL.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft), "PSP", "SFS", "PSP", 'P',
                 new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Tungstensteel), 'S',
                 new MaterialEntry(TagPrefix.rod, GTMaterials.Tungstensteel));
@@ -188,8 +183,7 @@ public class MetaTileEntityLoader {
                 new MaterialEntry(TagPrefix.gear, GTMaterials.Titanium));
         VanillaRecipeHelper.addShapedRecipe(provider, true, "casing_tungstensteel_gearbox",
                 GTBlocks.CASING_TUNGSTENSTEEL_GEARBOX.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft),
-                "PhP",
-                "GFG", "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
+                "PhP", "GFG", "PwP", 'P', new MaterialEntry(TagPrefix.plate, GTMaterials.Tungstensteel), 'F',
                 new MaterialEntry(TagPrefix.frameGt, GTMaterials.Tungstensteel), 'G',
                 new MaterialEntry(TagPrefix.gear, GTMaterials.Tungstensteel));
 

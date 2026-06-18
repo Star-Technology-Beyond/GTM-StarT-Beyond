@@ -619,7 +619,7 @@ public class GTMaterials {
     public static Material HydrochloricAcid;
     public static Material Steam;
     public static Material DistilledWater;
-    public static Material SodiumPotassium;
+    public static Material SodiumPotassiumAlloy;
     public static Material SamariumMagnetic;
     public static Material ManganesePhosphide;
     public static Material MagnesiumDiboride;

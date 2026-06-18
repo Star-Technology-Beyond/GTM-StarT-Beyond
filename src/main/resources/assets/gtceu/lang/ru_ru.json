@@ -4343,7 +4343,7 @@
     "material.gtceu.rhenium": "Рений",
     "material.gtceu.selenium": "Селен",
     "material.gtceu.sodium_persulfate": "Персульфат натрия",
-    "material.gtceu.nak_alloy": "Натрий калий",
+    "material.gtceu.sodium_potassium_alloy": "Натрий калий",
     "block.gtceu.hp_steam_solar_boiler": "Солнечный паровой котел высокого давления",
     "block.gtceu.lp_steam_solar_boiler": "Солнечный паровой котел",
     "gtceu.machine.hv_fluid_drilling_rig.tooltip": "Не делает Фрекинг",

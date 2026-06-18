@@ -804,14 +804,11 @@ public class MachineRecipeLoader {
                 .duration(50).addMaterialInfo(true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("casing_aluminium_frostproof").EUt(16).inputItems(plate, Aluminium, 6)
                 .inputItems(frameGt, Aluminium).circuitMeta(6)
-                .outputItems(
-                        GTBlocks.CASING_ALUMINIUM_FROSTPROOF.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
+                .outputItems(GTBlocks.CASING_ALUMINIUM_FROSTPROOF.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).addMaterialInfo(true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("casing_tungsteensteel_robust").EUt(16).inputItems(plate, Tungstensteel, 6)
                 .inputItems(frameGt, Tungstensteel).circuitMeta(6)
-                .outputItems(
-                        GTBlocks.CASING_TUNGSTENSTEEL_ROBUST
-                                .asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
+                .outputItems(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50).addMaterialInfo(true).save(provider);
         ASSEMBLER_RECIPES.recipeBuilder("casing_stainless_clean").EUt(16).inputItems(plate, StainlessSteel, 6)
                 .inputItems(frameGt, StainlessSteel).circuitMeta(6)
@@ -941,9 +938,7 @@ public class MachineRecipeLoader {
         ASSEMBLER_RECIPES.recipeBuilder("casing_tungstensteel_turbine").EUt(16)
                 .inputItems(GTBlocks.CASING_STEEL_TURBINE.asStack()).inputItems(plate, Tungstensteel, 6)
                 .circuitMeta(6)
-                .outputItems(
-                        GTBlocks.CASING_TUNGSTENSTEEL_TURBINE
-                                .asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
+                .outputItems(GTBlocks.CASING_TUNGSTENSTEEL_TURBINE.asStack(ConfigHolder.INSTANCE.recipes.casingsPerCraft))
                 .duration(50)
                 .addMaterialInfo(true).save(provider);
 

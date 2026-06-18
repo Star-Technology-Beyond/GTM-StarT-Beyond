@@ -685,10 +685,10 @@ public class ReactorRecipes {
                 .outputFluids(SaltWater.getFluid(1000))
                 .duration(400).EUt(VA[LV]).save(provider);
 
-        CHEMICAL_RECIPES.recipeBuilder("nak_alloy")
+        CHEMICAL_RECIPES.recipeBuilder("sodium_potassium_alloy")
                 .inputItems(dust, Sodium)
                 .inputItems(dust, Potassium)
-                .outputFluids(SodiumPotassium.getFluid(1000))
+                .outputFluids(SodiumPotassiumAlloy.getFluid(1000))
                 .duration(300).EUt(VA[LV]).save(provider);
 
         CHEMICAL_RECIPES.recipeBuilder("salt")

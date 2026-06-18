@@ -290,8 +290,7 @@ public class GTBlocks {
             GTCEu.id("block/casings/gearbox/machine_casing_gearbox_stainless_steel"));
     public static final BlockEntry<Block> CASING_TITANIUM_GEARBOX = createCasingBlock("titanium_gearbox",
             GTCEu.id("block/casings/gearbox/machine_casing_gearbox_titanium"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_GEARBOX = createCasingBlock(
-            "tungstensteel_gearbox",
+    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_GEARBOX = createCasingBlock("tungstensteel_gearbox",
             GTCEu.id("block/casings/gearbox/machine_casing_gearbox_tungstensteel"));
 
     // Turbine Casings
@@ -301,8 +300,7 @@ public class GTBlocks {
             GTCEu.id("block/casings/mechanic/machine_casing_turbine_titanium"));
     public static final BlockEntry<Block> CASING_STAINLESS_TURBINE = createCasingBlock("stainless_steel_turbine_casing",
             GTCEu.id("block/casings/mechanic/machine_casing_turbine_stainless_steel"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_TURBINE = createCasingBlock(
-            "tungstensteel_turbine_casing",
+    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_TURBINE = createCasingBlock("tungstensteel_turbine_casing",
             GTCEu.id("block/casings/mechanic/machine_casing_turbine_tungstensteel"));
 
     // Pipe casings
@@ -312,8 +310,7 @@ public class GTBlocks {
             GTCEu.id("block/casings/pipe/machine_casing_pipe_steel"));
     public static final BlockEntry<Block> CASING_TITANIUM_PIPE = createCasingBlock("titanium_pipe_casing",
             GTCEu.id("block/casings/pipe/machine_casing_pipe_titanium"));
-    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_PIPE = createCasingBlock(
-            "tungstensteel_pipe_casing",
+    public static final BlockEntry<Block> CASING_TUNGSTENSTEEL_PIPE = createCasingBlock("tungstensteel_pipe_casing",
             GTCEu.id("block/casings/pipe/machine_casing_pipe_tungstensteel"));
     public static final BlockEntry<Block> CASING_POLYTETRAFLUOROETHYLENE_PIPE = createCasingBlock("ptfe_pipe_casing",
             GTCEu.id("block/casings/pipe/machine_casing_pipe_polytetrafluoroethylene"));

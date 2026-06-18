@@ -97,7 +97,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(spring, Gold, 2)
                 .inputItems(LOW_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_HV)
-                .inputFluids(SodiumPotassium, 1000)
+                .inputFluids(SodiumPotassiumAlloy, 1000)
                 .outputItems(ENERGY_OUTPUT_HATCH[HV])
                 .duration(200).EUt(VA[HV])
                 .addMaterialInfo(true).save(provider);
@@ -107,7 +107,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(spring, Aluminium, 2)
                 .inputItems(POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_EV)
-                .inputFluids(SodiumPotassium, 2000)
+                .inputFluids(SodiumPotassiumAlloy, 2000)
                 .outputItems(ENERGY_OUTPUT_HATCH[EV])
                 .duration(200).EUt(VA[EV])
                 .addMaterialInfo(true).save(provider);
@@ -117,7 +117,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(spring, Tungsten, 2)
                 .inputItems(HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_IV)
-                .inputFluids(SodiumPotassium, 3000)
+                .inputFluids(SodiumPotassiumAlloy, 3000)
                 .outputItems(ENERGY_OUTPUT_HATCH[IV])
                 .duration(200).EUt(VA[IV])
                 .addMaterialInfo(true).save(provider);
@@ -128,7 +128,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.LuV_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_LuV, 2)
-                .inputFluids(SodiumPotassium, 6000)
+                .inputFluids(SodiumPotassiumAlloy, 6000)
                 .inputFluids(SolderingAlloy, 5 * L)
                 .outputItems(ENERGY_OUTPUT_HATCH[LuV])
                 .duration(400).EUt(VA[LuV])
@@ -140,7 +140,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.ZPM_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_ZPM, 2)
-                .inputFluids(SodiumPotassium, 8000)
+                .inputFluids(SodiumPotassiumAlloy, 8000)
                 .inputFluids(SolderingAlloy, 10 * L)
                 .outputItems(ENERGY_OUTPUT_HATCH[ZPM])
                 .stationResearch(b -> b
@@ -154,7 +154,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.UV_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_UV, 2)
-                .inputFluids(SodiumPotassium, 10000)
+                .inputFluids(SodiumPotassiumAlloy, 10000)
                 .inputFluids(SolderingAlloy, 20 * L)
                 .outputItems(ENERGY_OUTPUT_HATCH[UV])
                 .stationResearch(b -> b
@@ -169,7 +169,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.UHV_CIRCUITS)
                 .inputItems(wireGtDouble, RutheniumTriniumAmericiumNeutronate, 2)
-                .inputFluids(SodiumPotassium, 12000)
+                .inputFluids(SodiumPotassiumAlloy, 12000)
                 .inputFluids(SolderingAlloy, 40 * L)
                 .outputItems(ENERGY_OUTPUT_HATCH[UHV])
                 .stationResearch(b -> b
@@ -229,7 +229,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(cableGtSingle, Gold, 2)
                 .inputItems(LOW_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_HV)
-                .inputFluids(SodiumPotassium, 1000)
+                .inputFluids(SodiumPotassiumAlloy, 1000)
                 .outputItems(ENERGY_INPUT_HATCH[HV])
                 .duration(200).EUt(VA[HV])
                 .addMaterialInfo(true).save(provider);
@@ -239,7 +239,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(cableGtSingle, Aluminium, 2)
                 .inputItems(POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_EV)
-                .inputFluids(SodiumPotassium, 2000)
+                .inputFluids(SodiumPotassiumAlloy, 2000)
                 .outputItems(ENERGY_INPUT_HATCH[EV])
                 .duration(200).EUt(VA[EV])
                 .addMaterialInfo(true).save(provider);
@@ -249,7 +249,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(cableGtSingle, Tungsten, 2)
                 .inputItems(HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(VOLTAGE_COIL_IV)
-                .inputFluids(SodiumPotassium, 3000)
+                .inputFluids(SodiumPotassiumAlloy, 3000)
                 .outputItems(ENERGY_INPUT_HATCH[IV])
                 .duration(200).EUt(VA[IV])
                 .addMaterialInfo(true).save(provider);
@@ -260,7 +260,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.LuV_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_LuV, 2)
-                .inputFluids(SodiumPotassium, 6000)
+                .inputFluids(SodiumPotassiumAlloy, 6000)
                 .inputFluids(SolderingAlloy, 5 * L)
                 .outputItems(ENERGY_INPUT_HATCH[LuV])
                 .scannerResearch(b -> b
@@ -274,7 +274,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.ZPM_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_ZPM, 2)
-                .inputFluids(SodiumPotassium, 8000)
+                .inputFluids(SodiumPotassiumAlloy, 8000)
                 .inputFluids(SolderingAlloy, 10 * L)
                 .outputItems(ENERGY_INPUT_HATCH[ZPM])
                 .stationResearch(b -> b
@@ -288,7 +288,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.UV_CIRCUITS)
                 .inputItems(VOLTAGE_COIL_UV, 2)
-                .inputFluids(SodiumPotassium, 10000)
+                .inputFluids(SodiumPotassiumAlloy, 10000)
                 .inputFluids(SolderingAlloy, 20 * L)
                 .outputItems(ENERGY_INPUT_HATCH[UV])
                 .stationResearch(b -> b
@@ -303,7 +303,7 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputItems(ULTRA_HIGH_POWER_INTEGRATED_CIRCUIT, 2)
                 .inputItems(CustomTags.UHV_CIRCUITS)
                 .inputItems(wireGtDouble, RutheniumTriniumAmericiumNeutronate, 2)
-                .inputFluids(SodiumPotassium, 12000)
+                .inputFluids(SodiumPotassiumAlloy, 12000)
                 .inputFluids(SolderingAlloy, 40 * L)
                 .outputItems(ENERGY_INPUT_HATCH[UHV])
                 .stationResearch(b -> b

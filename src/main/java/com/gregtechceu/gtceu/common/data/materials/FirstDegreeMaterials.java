@@ -1319,7 +1319,7 @@ public class FirstDegreeMaterials {
                 .components(Hydrogen, 2, Oxygen, 1)
                 .buildAndRegister();
 
-        SodiumPotassium = new Material.Builder(GTCEu.id("nak_alloy"))
+        SodiumPotassiumAlloy = new Material.Builder(GTCEu.id("sodium_potassium_alloy"))
                 .fluid()
                 .color(0x64FCB4)
                 .flags(DECOMPOSITION_BY_CENTRIFUGING)
