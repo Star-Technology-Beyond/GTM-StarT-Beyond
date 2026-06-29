@@ -131,6 +131,9 @@ public class MetaTileEntityMachineRecipeLoader {
                 .inputFluids(SodiumPotassium, 6000)
                 .inputFluids(SolderingAlloy, 5 * L)
                 .outputItems(ENERGY_OUTPUT_HATCH[LuV])
+                .scannerResearch(b -> b
+                        .researchStack(ENERGY_OUTPUT_HATCH[IV].asStack())
+                        .EUt(VA[EV]))
                 .duration(400).EUt(VA[LuV])
                 .addMaterialInfo(true).save(provider);
 
